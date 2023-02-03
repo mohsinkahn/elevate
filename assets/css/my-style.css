@@ -256,6 +256,7 @@ border-radius: 1.4rem;
     text-align: left;
     
 }
+
 @media(max-width: 720px){
     .sms-msg{
        top:25%;
