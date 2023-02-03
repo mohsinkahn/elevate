@@ -68,15 +68,16 @@
 <script src="assets/js/pages/calendar.init.js"></script>
 
 <!-- table filter  -->
-<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<!-- <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 <script src="https://www.jqueryscript.net/demo/Excel-like-Bootstrap-Table-Sorting-Filtering-Plugin/excel-bootstrap-table-filter-bundle.js"></script>
-<link rel="stylesheet" href="https://www.jqueryscript.net/demo/Excel-like-Bootstrap-Table-Sorting-Filtering-Plugin/excel-bootstrap-table-filter-style.css" />
+<link rel="stylesheet" href="https://www.jqueryscript.net/demo/Excel-like-Bootstrap-Table-Sorting-Filtering-Plugin/excel-bootstrap-table-filter-style.css" /> -->
 
 <!-- Required datatable js -->
 <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
 <!-- Datatable init js -->
-<script src="assets/js/pages/datatables.init.js"></script>
+<!-- <script src="assets/js/pages/datatables.init.js"></script> -->
+<script src="assets/js/pages/datatable-pages.init.js"></script>
 <!-- apexcharts js -->
 <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
 

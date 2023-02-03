@@ -104,3 +104,4 @@
 <script src="assets/js/pages/calendar.init.js"></script>
 
 <?php require_once("footer.php") ?>
+

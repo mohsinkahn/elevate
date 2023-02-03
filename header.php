@@ -141,8 +141,6 @@
                 <div id="sidebar-menu">
                     <!-- Left Menu Start -->
                     <ul class="metismenu list-unstyled" id="side-menu">
-
-
                         <li>
                             <a href="index.php">
                                 <i class="mdi mdi-view-dashboard"></i>
@@ -150,7 +148,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="all_patient.php">
+                            <a href="contact.php">
                                 <i class="mdi mdi-account"></i>
                                 <span>Contacts</span>
                             </a>
