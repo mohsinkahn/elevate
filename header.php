@@ -155,7 +155,7 @@
                         </li>
                         
                         <li>
-                            <a href="campaign.php">
+                            <a href="opportunities.php">
                             <i class="mdi mdi-lightbulb-on-outline"></i>
                                 <span>Opportunites</span>
                             </a>

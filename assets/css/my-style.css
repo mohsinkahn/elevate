@@ -260,6 +260,10 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child{
     padding-left: 0;
 }
 
+.list-group .list-group-item .d-flex{
+    padding: 12px;
+}
+
 @media(max-width: 720px){
     .sms-msg{
        top:25%;

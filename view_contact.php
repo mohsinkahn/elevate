@@ -216,8 +216,8 @@
                                 <div class="card">
                                     <div class="card-header align-items-center d-flex justify-content-between pb-1">
                                         <div>
-                                            <a href="#" class="btn btn-primary px-3  mb-3 mar-left" data-bs-toggle="modal" data-bs-target="#email" id="email">Send Email</a>
-                                            <a href="#" class="btn btn-primary px-3  mb-3 mar-left" data-bs-toggle="modal" data-bs-target="#sms" style="display: none" id="sms">Send Sms</a>
+                                            <a href="#" class="btn btn-primary px-3  mb-3 mar-left" data-bs-toggle="modal" data-bs-target="#emails" id="email">Send Email</a>
+                                            <a href="#" class="btn btn-primary px-3  mb-3 mar-left" data-bs-toggle="modal" data-bs-target="#message" style="display: none" id="sms">Send Sms</a>
                                             <a href="#" class="btn btn-primary px-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="display: none" id="note">Add Note</a>
                                             <a href="#" class="btn btn-primary px-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="visibility:hidden" id="acty">act</a>
                                         </div>
@@ -938,125 +938,95 @@
         </div>
     </div>
 </div>
-<!-- Start campaign Modal -->
-<div class="modal fade" id="campaign" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<!-- Sms Modal -->
+<div class="modal fade" id="message" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Start Campaign</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">Send Sms</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-check mb-3">
-                            <input class="form-check-input" onclick="emailtog()" type="checkbox" id="formCheck1">
-                            <label class="form-check-label" for="formCheck1">
-                                Email
-                            </label>
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="title">
+                            <label for="floatingInput">Title</label>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="form-check mb-3">
-                            <input class="form-check-input" onclick="smstog()" type="checkbox" id="formCheck2">
-                            <label class="form-check-label" for="formCheck2">
-                                Sms
-                            </label>
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="number" >
+                            <label for="floatingInput">Phone Number</label>
                         </div>
                     </div>
+                    <div class="col-md-12">
 
-                </div>
-                <div id="email-temp-btn" style="display:none">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <button class="btn btn-primary" id="emailtemp">Template</button>
-                                <button class="btn btn-primary" id="emailcamp">Campaign</button>
-                            </div>
+                        <div class="mb-3">
+                            <label for="floatingInput">Message</label>
+                            <div id="ckeditor-classic"></div>
                         </div>
-                    </div>
-                </div>
-                <div id="sms-temp-btn" style="display:none">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <button class="btn btn-primary" id="smstemp">Template</button>
-                                <button class="btn btn-primary" id="smscamp">Campaign</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="email-temp" style="display: none">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <label for="choices-single-default" class="form-label font-size-13 text-muted">Select Email Template</label>
-                                <select class="form-control" data-trigger="" name="choices-single-default" id="choices-single-default" placeholder="This is a search placeholder">
-                                    <option value="">Select</option>
-                                    <option value="Choice 1">Abc</option>
-                                    <option value="Choice 2">Abc</option>
-                                    <option value="Choice 3">abc</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="email-camp" style="display: none">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <div class="mb-3">
-                                    <label for="choices-single-default" class="form-label font-size-13 text-muted">Select Email Campaign</label>
-                                    <select class="form-control" data-trigger="" name="choices-single-default" id="choices-single-default" placeholder="This is a search placeholder">
-                                        <option value="">Select</option>
-                                        <option value="Choice 1">Abc</option>
-                                        <option value="Choice 2">Abc</option>
-                                        <option value="Choice 3">Abc</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="sms-temp" style="display: none">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <label for="choices-single-default" class="form-label font-size-13 text-muted">Select Sms Template</label>
-                                <select class="form-control" data-trigger="" name="choices-single-default" id="choices-single-default" placeholder="This is a search placeholder">
-                                    <option value="">Select</option>
-                                    <option value="Choice 1">Abc</option>
-                                    <option value="Choice 2">Abc</option>
-                                    <option value="Choice 3">Abc</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="sms-camp" style="display: none">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <label for="choices-single-default" class="form-label font-size-13 text-muted">Select Sms Campaign</label>
-                                <select class="form-control" data-trigger="" name="choices-single-default" id="choices-single-default" placeholder="This is a search placeholder">
-                                    <option value="">Select</option>
-                                    <option value="Choice 1">Abc</option>
-                                    <option value="Choice 2">Abc</option>
-                                    <option value="Choice 3">Abc</option>
-                                </select>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save</button>
+                <button type="button" class="btn btn-primary">Save & Send</button>
             </div>
         </div>
     </div>
 </div>
+
+<!-- email modal -->
+<div class="modal fade" id="emails" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Send Email</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name">
+                            <label for="floatingInput">Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="subject" >
+                            <label for="floatingInput">Subject</label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="email" >
+                            <label for="floatingInput">Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+
+                        <div class="mb-3">
+                            <label for="floatingInput">Message</label>
+                            <div id="ckeditor-classic2"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save & Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script>
     let email_temp_input = document.getElementById('formCheck1');
     let sms_temp_input = document.getElementById('formCheck2');

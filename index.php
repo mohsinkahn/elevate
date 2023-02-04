@@ -99,23 +99,26 @@
     <div class="row">
       <div class="col-xl-8">
         <!-- card -->
-        <div class="card border-none">
+        <div class="card">
           <!-- card body -->
-          <div class="card-body">
-            <div class="d-flex flex-wrap align-items-center mb-4">
+          <div class="card-header pb-1">
+          <div class="d-flex flex-wrap align-items-center">
               <h5 class="card-title me-2">Funnel</h5>
               <div class="ms-auto">
                 <div>
-                <div class="mb-3">
-                <select class="form-select">
-                  <option>Master Pipeline</option>
-                  <option>Large select</option>
-                  <option>Small select</option>
-                </select>
-              </div>
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option>Master Pipeline</option>
+                      <option>Large select</option>
+                      <option>Small select</option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="card-body">
+            
 
             <div class="row align-items-center">
               <div class="col-xl-12">
@@ -134,19 +137,26 @@
 
       <div class="col-xl-4">
         <!-- card -->
-        <div class="card border-none">
+        <div class="card">
           <!-- card body -->
-          <div class="card-body">
-            <div class="d-flex flex-wrap align-items-center mb-4 justify-content-between">
+          <div class="card-header pb-1">
+          <div class="d-flex flex-wrap align-items-center">
               <h5 class="card-title me-2">Stages Distribution</h5>
-              <div class="mb-3">
-                <select class="form-select">
-                  <option>Master Pipeline</option>
-                  <option>Large select</option>
-                  <option>Small select</option>
-                </select>
+              <div class="ms-auto">
+                <div>
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option>Master Pipeline</option>
+                      <option>Large select</option>
+                      <option>Small select</option>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+          <div class="card-body">
+           
 
             <div id="column_chart_datalabel" data-colors='["#5156be"]' class="apex-charts" dir="ltr"></div>
 
@@ -182,11 +192,11 @@
     <div class="row">
       <div class="col-xl-12">
 
-        <div class="card border-none">
-          <div class="card-header align-items-center py-2 border-none">
+        <div class="card">
+          <div class="card-header align-items-center py-2">
             <div class="row">
               <div class="col-md-10 col-10">
-                <h4 class="card-title mb-0 mt-head">Today's Appointments</h4>
+                <h4 class="card-title  mt-head">Lead Source Report</h4>
               </div>
               <div class="col-md-2 col-2">
                 <!-- <a href="#" class="btn btn-primary px-5 float-end">Add</a> -->
@@ -197,214 +207,72 @@
 
           <div class="card-body">
             <div class="table-responsive">
-              <table id="table" class="table table-bordered table-intel">
+              <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
                 <thead>
-                  <tr class="table-info">
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Gender</th>
-                    <th>Time</th>
-                    <th>Date</th>
-                    <th>Phone Number</th>
-                    <th>Action</th>
+                  <tr>
+
+                    <th scope="col">Source</th>
+                    <th scope="col">Total Leads</th>
+                    <th scope="col">Total Values</th>
+                    <th scope="col">Open</th>
+                    <th scope="col">Lost</th>
+                    <th style="width: 80px; min-width: 80px;">Win %</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
-                      <div class="mx-auto mb-4 display-inline">
-                        <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
-                      </div>
-                      Jhon doe
 
+                    <td>
+                      <a href="#" class="text-body">Facebook</a>
+                    </td>
+                    <td>4</td>
+                    <td>$0.00</td>
+                    <td>
+                      2
                     </td>
                     <td>
-                      abc@gmail.com
+                      3
                     </td>
-                    <td>Female</td>
-                    <td>10:00 AM</td>
-                    <td>10/04/2022</td>
-                    <td>(423) 323-44545</td>
                     <td>
-                      <div class="dropdown text-center">
-                        <a class="text-muted dropdown-toggle font-size-16" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-end">
-                          <a class="dropdown-item" href="view_patient.php">View</a>
-                          <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#campaign">Cancel Appointment</a>
-                        </div>
-                      </div>
+                      7
                     </td>
                   </tr>
                   <tr>
-                    <td>
-                      <div class="mx-auto mb-4 display-inline">
-                        <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
-                      </div>
-                      Mark loi
 
+                    <td>
+                      <a href="#" class="text-body">In-house</a>
+                    </td>
+                    <td>4</td>
+                    <td>$0.00</td>
+                    <td>
+                      2
                     </td>
                     <td>
-                      abc@gmail.com
+                      3
                     </td>
-                    <td>Female</td>
-                    <td>10:00 AM</td>
-                    <td>10/04/2022</td>
-                    <td>(423) 323-44545</td>
                     <td>
-                      <div class="dropdown text-center">
-                        <a class="text-muted dropdown-toggle font-size-16" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-end">
-                          <a class="dropdown-item" href="view_patient.php">View</a>
-                          <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#campaign">Cancel Appointment</a>
-                        </div>
-                      </div>
+                      7
                     </td>
                   </tr>
                   <tr>
-                    <td>
-                      <div class="mx-auto mb-4 display-inline">
-                        <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
-                      </div>
-                      Will law
 
+                    <td>
+                      <a href="#" class="text-body">Web Chat</a>
+                    </td>
+                    <td>4</td>
+                    <td>$0.00</td>
+                    <td>
+                      2
                     </td>
                     <td>
-                      abc@gmail.com
+                      3
                     </td>
-                    <td>Female</td>
-                    <td>10:00 AM</td>
-                    <td>10/04/2022</td>
-                    <td>(423) 323-44545</td>
                     <td>
-                      <div class="dropdown text-center">
-                        <a class="text-muted dropdown-toggle font-size-16" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-end">
-                          <a class="dropdown-item" href="view_patient.php">View</a>
-                          <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#campaign">Cancel Appointment</a>
-                        </div>
-                      </div>
+                      7
                     </td>
                   </tr>
-                  <tr>
-                    <td>
-                      <div class="mx-auto mb-4 display-inline">
-                        <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
-                      </div>
-                      Hannah grace
-                    </td>
-                    <td>
-                      abc@gmail.com
-                    </td>
-                    <td>Female</td>
-                    <td>10:00 AM</td>
-                    <td>10/04/2022</td>
-                    <td>(423) 323-44545</td>
-                    <td>
-                      <div class="dropdown text-center">
-                        <a class="text-muted dropdown-toggle font-size-16" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </a>
 
-                        <div class="dropdown-menu dropdown-menu-end">
-                          <a class="dropdown-item" href="view_patient.php">View</a>
-                          <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#campaign">Cancel Appointment</a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="mx-auto mb-4 display-inline">
-                        <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
-                      </div>
-                      Aliza joe
 
-                    </td>
-                    <td>
-                      abc@gmail.com
-                    </td>
-                    <td>Female</td>
-                    <td>10:00 AM</td>
-                    <td>10/04/2022</td>
-                    <td>(423) 323-44545</td>
-                    <td>
-                      <div class="dropdown text-center">
-                        <a class="text-muted dropdown-toggle font-size-16" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-end">
-                          <a class="dropdown-item" href="view_patient.php">View</a>
-                          <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#campaign">Cancel Appointment</a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="mx-auto mb-4 display-inline">
-                        <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
-                      </div>
-                      Nina williams
-
-                    </td>
-                    <td>
-                      abc@gmail.com
-                    </td>
-                    <td>Female</td>
-                    <td>10:00 AM</td>
-                    <td>10/04/2022</td>
-                    <td>(423) 323-44545</td>
-                    <td>
-                      <div class="dropdown text-center">
-                        <a class="text-muted dropdown-toggle font-size-16" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-end">
-                          <a class="dropdown-item" href="view_patient.php">View</a>
-                          <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#campaign">Cancel Appointment</a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="mx-auto mb-4 display-inline">
-                        <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-md rounded-circle img-thumbnail">
-                      </div>
-                      Sara bay
-
-                    </td>
-                    <td>
-                      abc@gmail.com
-                    </td>
-                    <td>Female</td>
-                    <td>10:00 AM</td>
-                    <td>10/04/2022</td>
-                    <td>(423) 323-44545</td>
-                    <td>
-                      <div class="dropdown text-center">
-                        <a class="text-muted dropdown-toggle font-size-16" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-end">
-                          <a class="dropdown-item" href="view_patient.php">View</a>
-                          <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#campaign">Cancel Appointment</a>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
                 </tbody>
               </table>
             </div>
@@ -413,6 +281,183 @@
           <!-- end card body -->
         </div>
       </div>
+      <div class="col-xl-12">
+        <div class="card">
+          <div class="card-header pb-1">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <h4 class="card-title  mt-head">Tasks</h4>
+              </div>
+              <div class="col-md-4 col-12">
+                <select class="form-select mb-3">
+                  <option> Pending</option>
+                  <option>Completed</option>
+                  <option>New</option>
+                </select>
+              </div>
+              <div class="col-md-4 col-12">
+                <a href="#" class="btn btn-primary px-3 float-end mb-3 mar-left" data-bs-toggle="modal" data-bs-target="#task">Add Task</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-body currentcamp-overflow">
+            <div class="list-group list-group-flush">
+              <div class="list-group-item list-group-item-action px-0">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 me-3">
+                    <input type="checkbox">
+                  </div>
+                  <div class="flex-grow-1">
+                    <div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h5 class="font-size-14 mb-1">Welcome</h5>
+                        </div>
+                        <div class="col-md-6 ">
+                          <p class="text-right">2 min ago</p>
+                        </div>
+                      </div>
+                      <p class="font-size-13 text-muted mb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quidem dolor vel nisi est mollitia excepturi debitis suscipit dicta. Voluptatibus saepe incidunt nihil dignissimos eveniet molestiae sit, magni tenetur ea.
+
+                      </p>
+                      <div class="row mt-4">
+                        <div class="col-md-3">
+                          <p style="font-size:10px">
+                            Contact: <b style="color:black">Phyllis Gatlin</b>
+                          </p>
+                        </div>
+                        <div class="col-md-3">
+                          <p style="font-size:10px">
+                            Assigned:<b style="color:black">Laura</b>
+                          </p>
+                        </div>
+                        <div class="col-md-4">
+                          <p style="font-size:10px">
+                            Due: <b style="color:black">12/02/2022,(5:00pm)</b>
+                          </p>
+                        </div>
+                        <div class="col-md-2">
+
+                          <a href="#">
+                            <i class="mdi mdi-content-save-edit"></i>
+                          </a>
+                          <a href="#">
+                            <i class="mdi mdi-delete"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="list-group-item list-group-item-action px-0">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 me-3">
+                    <input type="checkbox">
+                  </div>
+                  <div class="flex-grow-1">
+                    <div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h5 class="font-size-14 mb-1">Welcome</h5>
+                        </div>
+                        <div class="col-md-6 ">
+                          <p class="text-right">2 min ago</p>
+                        </div>
+                      </div>
+                      <p class="font-size-13 text-muted mb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quidem dolor vel nisi est mollitia excepturi debitis suscipit dicta. Voluptatibus saepe incidunt nihil dignissimos eveniet molestiae sit, magni tenetur ea.
+
+                      </p>
+                      <div class="row mt-4">
+                        <div class="col-md-3">
+                          <p style="font-size:10px">
+                            Contact: <b style="color:black">Phyllis Gatlin</b>
+                          </p>
+                        </div>
+                        <div class="col-md-3">
+                          <p style="font-size:10px">
+                            Assigned:<b style="color:black">Laura</b>
+                          </p>
+                        </div>
+                        <div class="col-md-4">
+                          <p style="font-size:10px">
+                            Due: <b style="color:black">12/02/2022,(5:00pm)</b>
+                          </p>
+                        </div>
+                        <div class="col-md-2">
+
+                          <a href="#">
+                            <i class="mdi mdi-content-save-edit"></i>
+                          </a>
+                          <a href="#">
+                            <i class="mdi mdi-delete"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="list-group-item list-group-item-action px-0">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 me-3">
+                    <input type="checkbox">
+                  </div>
+                  <div class="flex-grow-1">
+                    <div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h5 class="font-size-14 mb-1">Welcome</h5>
+                        </div>
+                        <div class="col-md-6 ">
+                          <p class="text-right">2 min ago</p>
+                        </div>
+                      </div>
+                      <p class="font-size-13 text-muted mb-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quidem dolor vel nisi est mollitia excepturi debitis suscipit dicta. Voluptatibus saepe incidunt nihil dignissimos eveniet molestiae sit, magni tenetur ea.
+
+                      </p>
+                      <div class="row mt-4">
+                        <div class="col-md-3">
+                          <p style="font-size:10px">
+                            Contact: <b style="color:black">Phyllis Gatlin</b>
+                          </p>
+                        </div>
+                        <div class="col-md-3">
+                          <p style="font-size:10px">
+                            Assigned:<b style="color:black">Laura</b>
+                          </p>
+                        </div>
+                        <div class="col-md-4">
+                          <p style="font-size:10px">
+                            Due: <b style="color:black">12/02/2022,(5:00pm)</b>
+                          </p>
+                        </div>
+                        <div class="col-md-2">
+
+                          <a href="#">
+                            <i class="mdi mdi-content-save-edit"></i>
+                          </a>
+                          <a href="#">
+                            <i class="mdi mdi-delete"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end card body -->
+        </div>
+      </div>
+
       <!-- end col -->
 
 
