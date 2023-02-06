@@ -17,7 +17,7 @@
               </div>
 
               <div class="col-6">
-                <div class="icon bg-one">
+                <div class="icon bg-1">
                   <i class="mdi mdi-lightbulb-on-outline"></i>
                 </div>
               </div>
@@ -51,7 +51,7 @@
                 </h4>
               </div>
               <div class="col-6">
-                <div class="icon bg-two">
+                <div class="icon bg-2">
                   <i class="mdi mdi-filter"></i>
                 </div>
               </div>
@@ -85,7 +85,7 @@
                 </h4>
               </div>
               <div class="col-6">
-                <div class="icon bg-three">
+                <div class="icon bg-3">
                   <i class="mdi mdi-finance"></i>
                 </div>
               </div>
