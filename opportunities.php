@@ -38,7 +38,21 @@
         padding: 12px;
 
     }
-
+.bg-one{
+background-color: #5AD111;
+}
+.bg-two{
+  background-color:#158CCF;
+}
+.bg-three{
+  background-color:gray;
+}
+.bg-four{
+  background-color:gainsboro;
+}
+.bg-five{
+  background-color:darkgreen;
+}
     .one li {
         border-radius: 4PX;
         border-left: 5px solid #5AD111;
@@ -50,14 +64,22 @@
     }
 
     .three li {
-        border-left: 5px solid #4515CF;
+        border-left: 5px solid gray;
+        border-radius: 4PX;
+    }
+    .four li {
+        border-left: 5px solid gainsboro;
+        border-radius: 4PX;
+    }
+    .five li {
+        border-left: 5px solid darkgreen;
         border-radius: 4PX;
     }
 
 
     ol {
         list-style: none;
-        padding: 0;
+        padding: 13px;
     }
 
     ol li:hover {
@@ -75,7 +97,7 @@
 
    .over .col-md-4 {
         border: 1px solid #ccc;
-        padding: 15px;
+        /* padding: 15px; */
         border-radius: 4px;
     }
 </style>
@@ -104,138 +126,528 @@
           <div class="over">
             <div class="d-flex">
                 <div class="col-md-4">
-                  <div class="top">
-                    <div class="d-flex">
-                      <div>
-                        
+                  <div class="upper-head">
+                    <div class="inner">
+                      <div> 
+                       <span class="mt-5 bg-one inner-icon">
+                        <i class="mdi mdi-check-all"></i>  
+                        </span>
                       </div>
                       <div>
-
+                        <h6>Lead In</h6>
+                        <p>0 Lead  <span class="color-green">$0.00</span></p>
                       </div>
                     </div>
                   </div>
                     <ol class="simple_with_animation vertical one">
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                    <li class="highlight">
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
 
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                     </ol>
                 </div>
                 <div class="col-md-4">
+                <div class="upper-head">
+                    <div class="inner">
+                      <div> 
+                       <span class="mt-5 bg-two inner-icon">
+                        <i class="mdi mdi-cellphone-message"></i>  
+                        </span>
+                      </div>
+                      <div>
+                        <h6>Texted Back</h6>
+                        <p>0 Lead  <span class="color-green">$0.00</span></p>
+                      </div>
+                    </div>
+                  </div>
                     <ol class="simple_with_animation vertical two">
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
 
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                     </ol>
                 </div>
                 <div class="col-md-4">
+                <div class="upper-head">
+                    <div class="inner">
+                      <div> 
+                       <span class="mt-5 bg-three inner-icon">
+                        <i class="mdi mdi-cellphone"></i>  
+                        </span>
+                      </div>
+                      <div>
+                        <h6>Calls 2-5</h6>
+                        <p>0 Lead  <span class="color-green">$0.00</span></p>
+                      </div>
+                    </div>
+                  </div>
                     <ol class="simple_with_animation vertical three">
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                    <li class="highlight">
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
 
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                    </ol>
+                </div>
+                <div class="col-md-4">
+                <div class="upper-head">
+                    <div class="inner">
+                      <div> 
+                       <span class="mt-5 bg-four inner-icon">
+                        <i class="mdi mdi-cellphone"></i>  
+                        </span>
+                      </div>
+                      <div>
+                        <h6>Calls 6-10</h6>
+                        <p>0 Lead  <span class="color-green">$0.00</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <ol class="simple_with_animation vertical four">
+                    <li class="highlight">
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
+                        </li>
+                        <li class="highlight">
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
                         </li>
                     </ol>
                 </div>
                 <div class="col-md-4">
-                    <ol class="simple_with_animation vertical three">
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                <div class="upper-head">
+                    <div class="inner">
+                      <div> 
+                       <span class="mt-5 bg-five inner-icon">
+                        <i class="mdi mdi-calendar"></i>  
+                        </span>
+                      </div>
+                      <div>
+                        <h6>Consult</h6>
+                        <p>0 Lead  <span class="color-green">$0.00</span></p>
+                      </div>
+                    </div>
+                  </div>
+                    <ol class="simple_with_animation vertical five">
+                    <li class="highlight">
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
                         <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
+                            <h4>Maria Jardines</h4>
+                            <p>Facebook</p>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                            <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                           <div class="row mt-3">
+                            <div class="col-md-6">
+                               <a href="view_contact.php" class="btn btn-primary">
+                                <i class="mdi mdi-comment"></i>
+                               </a>
+                               <a href="#" class="btn btn-primary">
+                                <i class="mdi mdi-phone"></i>
+                               </a>
+                              </div>
+                            <div class="col-md-6 text-right">
+                              <a href="#" class="btn btn-primary">
+                                <i class="fa fa-plus"></i> Task
+                              </a>
+                              </div>
+                           </div>
+                          
                         </li>
 
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
-                        </li>
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
-                        </li>
-                    </ol>
-                </div>
-                <div class="col-md-4">
-                    <ol class="simple_with_animation vertical three">
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
-                        </li>
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
-                        </li>
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
-                        </li>
-
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
-                        </li>
-                        <li class="highlight">
-                            <h3>Asd</h3>
-                            <p>lorem</p>
-                        </li>
+                       
                     </ol>
                 </div>
             </div>

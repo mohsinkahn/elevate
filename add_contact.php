@@ -74,12 +74,14 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <!-- <div class="mb-3">
-                                            <label for="example-text-input" class="form-label">Stage*</label>
-                                            <input class="form-control" type="text" value="" id="example-text-input">
-                                        </div> -->
+                                      <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="Contact type">
+                                            <label for="floatingInput">Contact Type</label>
+                                        </div>
                                     </div>
                                 </div>
+                               
+                                <!-- <hr> -->
                             </div>
                             <div class="col-md-5">
                                 <div>
@@ -98,6 +100,67 @@
                                 </div>
 
                             </div>
+                            <div class="row">
+                                    <div class="col-md-12 bord-bot">
+                                      <div class="row align-items-center">
+                                        <div class="col-md-6">
+                                        <label for="floatingInput" style="font-weight:bold;">DND All Channels</label>
+                                        </div>
+                                        <div class="col-md-6 text-right">
+                                             <input type="checkbox">
+                                        </div>
+                                      </div>
+                                      <p class="hr">OR</p>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center mt-4 ico">
+                                        <div class="col-md-6">
+                                            <i class="mdi mdi-email-outline" style="color:skyblue"></i>
+                                        <label for="floatingInput">Emails</label>
+                                        </div>
+                                        <div class="col-md-6 text-right">
+                                             <input type="checkbox">
+                                        </div>
+                                      </div>
+                                <div class="row align-items-center mt-4 ico">
+                                        <div class="col-md-6">
+                                            <i class="mdi mdi-message-reply-text" style="color:gold"></i>
+                                        <label for="floatingInput">Text Messages</label>
+                                        </div>
+                                        <div class="col-md-6 text-right">
+                                             <input type="checkbox">
+                                        </div>
+                                </div>
+                                
+                                <div class="row align-items-center mt-4 ico">
+                                        <div class="col-md-6">
+                                            <i class="mdi mdi-phone" style="color:green"></i>
+                                        <label for="floatingInput">Calls & Voicemails</label>
+                                        </div>
+                                        <div class="col-md-6 text-right">
+                                             <input type="checkbox">
+                                        </div>
+                                </div>
+                                <div class="row align-items-center mt-4 ico">
+                                        <div class="col-md-6">
+                                            <i class="mdi mdi-google-my-business" style="color:gray"></i>
+                                        <label for="floatingInput">GMB</label>
+                                        </div>
+                                        <div class="col-md-6 text-right">
+                                             <input type="checkbox">
+                                        </div>
+                                </div>
+                                <div class="row align-items-center mt-4 ico mb-4">
+                                        <div class="col-md-6">
+                                            <i class="mdi mdi-facebook-messenger" style="color:blue"></i>
+                                        <label for="floatingInput">Facebook Messenger</label>
+                                        </div>
+                                        <div class="col-md-6 text-right">
+                                             <input type="checkbox">
+                                        </div>
+                                </div>
+
+                            
                             <div class="col-md-12">
                                 <a href="all_patient.php" class="btn btn-primary px-5 float-end">Save</a>
                                 <a href="all_patient.php" class="btn btn-outline-primary px-5 float-end" style="margin-right:12px">Cancel</a>

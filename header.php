@@ -124,7 +124,7 @@
                             <a class="dropdown-item" href="profile.php"><i class="fa fa-user font-size-16 align-middle me-1"></i> Profile</a>
                             
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="login.php"><i class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
+                            <a class="dropdown-item" href="#"><i class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
                         </div>
                     </div>
 
@@ -174,7 +174,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="marketing.php">
                                 <i class="mdi mdi-send-outline"></i>
                                 <span>Marketing</span>
                             </a>

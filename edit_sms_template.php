@@ -12,9 +12,7 @@
                             <div class="col-md-8 col-6">
                                 <h4 class="card-title mb-0 mt-head">Edit Sms Template</h4>
                             </div>
-                            <div class="col-md-4 col-6">
-                                <a href="#" class="btn btn-primary float-end px-5">Save</a>
-                            </div>
+                            
                         </div>
                     </div>
                     <!-- end card header -->
@@ -25,31 +23,23 @@
                                 <div class="card p-4">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <div class="mb-3">
-                                                <label for="basicpill-firstname-input" class="form-label">Template Name</label>
-                                                <Select class="form-control">
-                                                    <option value="">Select</option>
-                                                    <option value="">Dry Eye Followups</option>
+                                        <div class="form-floating mb-3 ">
+                                                <input type="email" class="form-control" id="floatingInput" placeholder="temp name">
+                                                <label for="floatingInput">Template Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                        <div class="mb-3 ">
+                                                <select name="" id="" class="form-select" style="height:58px">
+                                                <option value="">Senders</option>
+                                                    <option value="">All New Leads</option>
                                                     <option value="">abc</option>
-                                                </Select>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="mb-3">
-                                                <label for="basicpill-lastname-input" class="form-label">Senders</label>
-                                                <Select class="form-control">
-                                                    <option value="">Select</option>
-                                                    <option value="">All New Patients</option>
-                                                    <option value="">abc</option>
-                                                </Select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="mb-3">
-                                                <label for="basicpill-address-input" class="form-label">Message Text</label>
-                                                <textarea name="" id="" cols="30" rows="10" class="form-control" style="height:400px">
-
-                                                           </textarea>
+                                            <div id="ckeditor-classic2"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -78,7 +68,10 @@
 
                             </div>
                         </div>
-
+                        <div class="col-md-12">
+                                <a href="all_patient.php" class="btn btn-primary px-5 float-end">Save</a>
+                                <a href="all_patient.php" class="btn btn-outline-primary px-5 float-end" style="margin-right:12px">Cancel</a>
+                            </div>
 
 
                     </div>

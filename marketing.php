@@ -4,21 +4,13 @@
 
 <div class="page-content">
     <div class="container-fluid">
-
-        <!-- start page title -->
-
-        <!-- end page title -->
-
-
-
-
         <div class="row">
             <div class="col-xl-12">
                 <div class="card border-none">
                     <div class="card-header align-items-center py-2 border-none">
                         <div class="row">
                             <div class="col-md-6 col-6">
-                                <h4 class="card-title mb-0 mt-head">All Campaigns</h4>
+                                <h4 class="card-title mb-0 mt-head">Marketing</h4>
                             </div>
                             <div class="col-md-6 col-6">
                                 <div class="btn-group float-end px-2" role="group" style="margin-left:5px;" id="email_btn">
@@ -26,7 +18,7 @@
                                        Create Email <i class="mdi mdi-chevron-down"></i>
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1" >
-                                        <li><a class="dropdown-item" href="create_campaign.php">Campaign</a></li>
+                                        <!-- <li><a class="dropdown-item" href="create_campaign.php">Campaign</a></li> -->
                                         <li><a class="dropdown-item" href="create_email_template.php">Template</a></li>
                                     </ul>
                                 </div>
@@ -35,7 +27,7 @@
                                        Create Sms <i class="mdi mdi-chevron-down"></i>
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                        <li><a class="dropdown-item" href="create_sms_campaign.php">Campaign</a></li>
+                                        <!-- <li><a class="dropdown-item" href="create_sms_campaign.php">Campaign</a></li> -->
                                         <li><a class="dropdown-item" href="create_sms_template.php">Template</a></li>
                                     </ul>
                                 </div>
@@ -189,122 +181,7 @@
                                             <!-- end col -->
                                         </div>
 
-                                        <h4 class="card-title mb-4 mt-head" style="margin-top:60px;">Campaigns</h4>
-                                        <div class="row">
-                                            <div class="col-xl-3">
-                                                <div class="card p-1 mb-sm-0">
-                                                    <div class="p-3">
-                                                        <div class="d-flex align-items-start">
-                                                            <div class="flex-grow-1 overflow-hidden">
-                                                                <h5 class="font-size-15 text-truncate"><a href="#" class="text-dark">OPTS</a></h5>
-
-                                                            </div>
-                                                            <div class="flex-shrink-0 ms-2">
-                                                                <div class="dropdown">
-                                                                    <a class="btn btn-link text-muted font-size-16 p-1 py-0 dropdown-toggle shadow-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                        <i class="bx bx-dots-horizontal-rounded"></i>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu-end">
-                                                                       
-                                                                        <li><a class="dropdown-item" href="edit_email_campaign.php">Edit/View</a></li>
-                                                                        <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="position-relative file-icon">
-                                                        <i class="fa fa-envelope"></i>
-                                                    </div>
-
-                                                    <div class="p-3">
-
-                                                        <p class="text-muted">
-                                                            Send this enroll to your new customers to welcome them to your product.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end col -->
-
-                                            <div class="col-xl-3">
-                                                <div class="card p-1 mb-sm-0">
-                                                    <div class="p-3">
-                                                        <div class="d-flex align-items-start">
-                                                            <div class="flex-grow-1 overflow-hidden">
-                                                                <h5 class="font-size-15 text-truncate"><a href="#" class="text-dark">OPTS</a></h5>
-
-                                                            </div>
-                                                            <div class="flex-shrink-0 ms-2">
-                                                                <div class="dropdown">
-                                                                    <a class="btn btn-link text-muted font-size-16 p-1 py-0 dropdown-toggle shadow-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                        <i class="bx bx-dots-horizontal-rounded"></i>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu-end">
-                                                                       
-                                                                        <li><a class="dropdown-item" href="edit_email_campaign.php">Edit/View</a></li>
-                                                                        <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="position-relative file-icon">
-                                                        <i class="fa fa-envelope"></i>
-                                                    </div>
-
-                                                    <div class="p-3">
-
-                                                        <p class="text-muted">
-                                                            Send this enroll to your new customers to welcome them to your product.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end col -->
-
-                                            <div class="col-xl-3">
-                                                <div class="card p-1 mb-sm-0">
-                                                    <div class="p-3">
-                                                        <div class="d-flex align-items-start">
-                                                            <div class="flex-grow-1 overflow-hidden">
-                                                                <h5 class="font-size-15 text-truncate"><a href="#" class="text-dark">OPTS</a></h5>
-
-                                                            </div>
-                                                            <div class="flex-shrink-0 ms-2">
-                                                                <div class="dropdown">
-                                                                    <a class="btn btn-link text-muted font-size-16 p-1 py-0 dropdown-toggle shadow-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                        <i class="bx bx-dots-horizontal-rounded"></i>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu-end">
-                                                                      
-                                                                        <li><a class="dropdown-item" href="edit_email_campaign.php">Edit/View</a></li>
-                                                                        <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="position-relative file-icon">
-                                                        <i class="fa fa-envelope"></i>
-                                                    </div>
-
-                                                    <div class="p-3">
-
-                                                        <p class="text-muted">
-                                                            Send this enroll to your new customers to welcome them to your product.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end col -->
-                                        </div>
+                                        
                                     </div>
                                     <div class="tab-pane" id="profile2" role="tabpanel">
                                         <h4 class="card-title mb-4  mt-head">Templates</h4>
@@ -422,121 +299,7 @@
                                             </div>
                                             <!-- end col -->
                                         </div>
-                                        <h4 class="card-title mb-4  mt-head" style="margin-top:60px;">Campaigns</h4>
-                                        <div class="row">
-                                            <div class="col-xl-3">
-                                                <div class="card p-1 mb-sm-0">
-                                                    <div class="p-3">
-                                                        <div class="d-flex align-items-start">
-                                                            <div class="flex-grow-1 overflow-hidden">
-                                                                <h5 class="font-size-15 text-truncate"><a href="#" class="text-dark">OPTS</a></h5>
-
-                                                            </div>
-                                                            <div class="flex-shrink-0 ms-2">
-                                                                <div class="dropdown">
-                                                                    <a class="btn btn-link text-muted font-size-16 p-1 py-0 dropdown-toggle shadow-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                        <i class="bx bx-dots-horizontal-rounded"></i>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu-end">
-                                                                        
-                                                                        <li><a class="dropdown-item" href="edit_sms_campaign.php">Edit/View</a></li>
-                                                                        <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="position-relative file-icon">
-                                                        <i class="fa fa-comment"></i>
-                                                    </div>
-
-                                                    <div class="p-3">
-
-                                                        <p class="text-muted">
-                                                            Send this enroll to your new customers to welcome them to your product.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end col -->
-
-                                            <div class="col-xl-3">
-                                                <div class="card p-1 mb-sm-0">
-                                                    <div class="p-3">
-                                                        <div class="d-flex align-items-start">
-                                                            <div class="flex-grow-1 overflow-hidden">
-                                                                <h5 class="font-size-15 text-truncate"><a href="#" class="text-dark">OPTS</a></h5>
-
-                                                            </div>
-                                                            <div class="flex-shrink-0 ms-2">
-                                                                <div class="dropdown">
-                                                                    <a class="btn btn-link text-muted font-size-16 p-1 py-0 dropdown-toggle shadow-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                        <i class="bx bx-dots-horizontal-rounded"></i>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu-end">
-                                                                      
-                                                                        <li><a class="dropdown-item" href="edit_sms_campaign.php">Edit/View</a></li>
-                                                                        <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="position-relative file-icon">
-                                                        <i class="fa fa-comment"></i>
-                                                    </div>
-
-                                                    <div class="p-3">
-
-                                                        <p class="text-muted">
-                                                            Send this enroll to your new customers to welcome them to your product.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end col -->
-                                            <div class="col-xl-3">
-                                                <div class="card p-1 mb-sm-0">
-                                                    <div class="p-3">
-                                                        <div class="d-flex align-items-start">
-                                                            <div class="flex-grow-1 overflow-hidden">
-                                                                <h5 class="font-size-15 text-truncate"><a href="#" class="text-dark">OPTS</a></h5>
-
-                                                            </div>
-                                                            <div class="flex-shrink-0 ms-2">
-                                                                <div class="dropdown">
-                                                                    <a class="btn btn-link text-muted font-size-16 p-1 py-0 dropdown-toggle shadow-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                        <i class="bx bx-dots-horizontal-rounded"></i>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu-end">
-                                                                       
-                                                                        <li><a class="dropdown-item" href="edit_sms_campaign.php">Edit/View</a></li>
-                                                                        <li><a class="dropdown-item" href="#">Delete</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="position-relative file-icon">
-                                                        <i class="fa fa-comment"></i>
-                                                    </div>
-
-                                                    <div class="p-3">
-
-                                                        <p class="text-muted">
-                                                            Send this enroll to your new customers to welcome them to your product.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end col -->
-                                        </div>
+                                        
                                     </div>
 
                                 </div>

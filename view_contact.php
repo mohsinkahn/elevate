@@ -165,46 +165,84 @@
                                         </div>
                                     </div>
                                     <div class="card-body appointment-overflow">
-                                        <div class="card" data-bs-toggle="modal" data-bs-target="#event-modal">
+                                        <div class="card" >
 
-                                            <div class="card-body pending">
+                                        <div class="card-body completed">
                                                 <div class="row align-items-center">
                                                     <div class="col-md-6">
-                                                        <p class="m-0 date">06/11/2022</p>
-                                                        <small>6:00 PM - 7:00 PM</small>
+                                                      <i class="mdi mdi-calendar"></i>  <small class="m-0 date">06/11/2022</small>
+                                                        <h6>Sabrina SOTO SUGAR</h6>
                                                     </div>
                                                     <div class="col-md-6" style="text-align:right">
-
-                                                        <p class="m-0 pend">Pending</p>
+                                                    <small style="color:black;font-weight:bold">Status</small>
+                                                        <p class="m-0 comp">Confirmed</p>                                                               
                                                     </div>
                                                 </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente possimus dolorum commodi atque esse quos ducimus, animi aperiam quis suscipit asperiores porro, praesentium hic maiores minima molestias saepe. Nihil?</p>
+                                                <div class="row">
+                                                   <div class="col-md-6">
+                                                   <i class="mdi mdi-clock-outline"></i> <small>6:00 PM - 7:00 PM</small>
+                                                   </div>
+                                                   <div class="col-md-6 text-right">
+                                                    <a href="#" style="color:black" data-bs-toggle="modal" data-bs-target="#event-modal">
+                                                        <i class="mdi mdi-pencil-outline"></i>
+                                                    </a>
+                                                   </div>
+                                                </div>
+                                                
                                             </div>
 
                                         </div>
-                                        <div class="card" data-bs-toggle="modal" data-bs-target="#event-modal">
-                                            <div class="card-body completed">
+                                        <div class="card" >
+                                        <div class="card-body completed">
                                                 <div class="row align-items-center">
                                                     <div class="col-md-6">
-                                                        <p class="m-0 date">06/11/2022</p>
-                                                        <small>6:00 PM - 7:00 PM</small>
+                                                      <i class="mdi mdi-calendar"></i>  <small class="m-0 date">06/11/2022</small>
+                                                        <h6>Sabrina SOTO SUGAR</h6>
                                                     </div>
                                                     <div class="col-md-6" style="text-align:right">
-                                                        <p class="m-0 comp">Completed</p>
+                                                    <small style="color:black;font-weight:bold">Status</small>
+                                                        <p class="m-0 comp">Confirmed</p>                                                               
                                                     </div>
                                                 </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente possimus dolorum commodi atque esse quos ducimus, animi aperiam quis suscipit asperiores porro, praesentium hic maiores minima molestias saepe. Nihil?</p>
+                                                <div class="row">
+                                                   <div class="col-md-6">
+                                                   <i class="mdi mdi-clock-outline"></i> <small>6:00 PM - 7:00 PM</small>
+                                                   </div>
+                                                   <div class="col-md-6 text-right">
+                                                    <a href="#" style="color:black" data-bs-toggle="modal" data-bs-target="#event-modal">
+                                                        <i class="mdi mdi-pencil-outline"></i>
+                                                    </a>
+                                                   </div>
+                                                </div>
+                                                
                                             </div>
                                         </div>
-                                        <div class="card" data-bs-toggle="modal" data-bs-target="#event-modal">
-                                            <div class="card-body completed">
+                                        <div class="card" >
+                                        <div class="card-body completed">
                                                 <div class="row align-items-center">
                                                     <div class="col-md-6">
-                                                        <p class="m-0 date">06/11/2022</p>
-                                                        <small>6:00 PM - 7:00 PM</small>
+                                                      <i class="mdi mdi-calendar"></i>  <small class="m-0 date">06/11/2022</small>
+                                                        <h6>Sabrina SOTO SUGAR</h6>
                                                     </div>
                                                     <div class="col-md-6" style="text-align:right">
-                                                        <p class="m-0 comp">Completed</p>
+                                                    <small style="color:black;font-weight:bold">Status</small>
+                                                        <p class="m-0 comp">Confirmed</p>                                                               
                                                     </div>
                                                 </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente possimus dolorum commodi atque esse quos ducimus, animi aperiam quis suscipit asperiores porro, praesentium hic maiores minima molestias saepe. Nihil?</p>
+                                                <div class="row">
+                                                   <div class="col-md-6">
+                                                   <i class="mdi mdi-clock-outline"></i> <small>6:00 PM - 7:00 PM</small>
+                                                   </div>
+                                                   <div class="col-md-6 text-right">
+                                                    <a href="#" style="color:black" data-bs-toggle="modal" data-bs-target="#event-modal">
+                                                        <i class="mdi mdi-pencil-outline"></i>
+                                                    </a>
+                                                   </div>
+                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -811,49 +849,57 @@
 
             </div>
             <div class="modal-body p-4">
-                <form class="needs-validation" name="event-form" id="form-event" novalidate="">
+            <form class="needs-validation" name="event-form" id="form-event" novalidate="">
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <div class="mb-3">
-                                <label class="form-label">Date</label>
-                                <input class="form-control" placeholder="Insert Event Name" type="text" name="title" id="event-title" required="" value="">
-
+                            <div class="form-floating mb-3 ">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="appointment title">
+                                <label for="floatingInput">Appointment Title</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3 ">
+                            <select name="" id="" class="form-select" style="height:58px">
+                               <option value="">Status</option>
+                                <option value="">Confirm</option>
+                                <option value="">Cancel</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Dob" onclick="this.type='date'">
+                                <label for="floatingInput">Date</label>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="mb-3">
-                                <label class="form-label">Time</label>
-                                <input type="time" class="form-control">
-
+                               <select name="" id="" class="form-select" style="height:58px">
+                               <option value="">Time</option>
+                                <option value="">8:00 am - 9:00 am</option>
+                                <option value="">9:00 am - 10:00 am</option>
+                                <option value="">10:00 am - 11:00 am</option>
+                                <option value="">11:00 am - 12:00 pm</option>
+                                <option value="">12:00 pm - 1:00 pm</option>
+                                <option value="">1:00 am - 2:00 pm</option>
+                                <option value="">2:00 am - 3:00 pm</option>
+                                <option value="">3:00 am - 4:00 pm</option>
+                                <option value="">4:00 am - 5:00 pm</option>
+                                <option value="">5:00 am - 6:00 pm</option>
+                               </select>
                             </div>
                         </div>
                     </div>
                     <div class="row mt-2">
+                        
                         <div class="col-12">
-                            <div class="mb-3">
-                                <label class="form-label">Select Patient</label>
-                                <select class="form-control form-select" name="category" id="event-category">
-                                    <option selected=""> --Select-- </option>
-                                    <option value="">jhonny</option>
-                                    <option value="">Ken</option>
-
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mb-3">
-                                <label class="form-label">Note</label>
-                                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        <div class="form-floating mb-3 ">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="description">
+                                <label for="floatingInput">Description</label>
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-2">
-
-                        <div class="col-12 text-end">
-                            <button type="button" class="btn btn-light me-1" data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary" id="btn-save-event">Save</button>
-                        </div>
-                    </div>
+                  
                 </form>
             </div>
         </div> <!-- end modal-content-->
@@ -868,29 +914,59 @@
                 <h5 class="modal-title" id="staticBackdropLabel">Add Appointment</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="Date" onclick="this.type='date'">
-                            <label for="floatingInput">Date</label>
+            <div class="modal-body p-4">
+                <form class="needs-validation" name="event-form" id="form-event" novalidate="">
+                    <div class="row">
+                    <div class="col-12 col-md-6">
+                            <div class="form-floating mb-3 ">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="appointment title">
+                                <label for="floatingInput">Appointment Title</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3 ">
+                            <select name="" id="" class="form-select" style="height:58px">
+                               <option value="">Status</option>
+                                <option value="">Confirm</option>
+                                <option value="">Cancel</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Dob" onclick="this.type='date'">
+                                <label for="floatingInput">Date</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                               <select name="" id="" class="form-select" style="height:58px">
+                               <option value="">Time</option>
+                                <option value="">8:00 am - 9:00 am</option>
+                                <option value="">9:00 am - 10:00 am</option>
+                                <option value="">10:00 am - 11:00 am</option>
+                                <option value="">11:00 am - 12:00 pm</option>
+                                <option value="">12:00 pm - 1:00 pm</option>
+                                <option value="">1:00 am - 2:00 pm</option>
+                                <option value="">2:00 am - 3:00 pm</option>
+                                <option value="">3:00 am - 4:00 pm</option>
+                                <option value="">4:00 am - 5:00 pm</option>
+                                <option value="">5:00 am - 6:00 pm</option>
+                               </select>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="time" onclick="this.type='time'">
-                            <label for="floatingInput">Time</label>
+                    <div class="row mt-2">
+                        
+                        <div class="col-12">
+                        <div class="form-floating mb-3 ">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="description">
+                                <label for="floatingInput">Description</label>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="note">
-                            <!-- <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea> -->
-                            <label for="floatingInput">Note</label>
-                        </div>
-                    </div>
-                </div>
+                  
+                </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
@@ -963,7 +1039,7 @@
                     <div class="col-md-12">
 
                         <div class="mb-3">
-                            <label for="floatingInput">Message</label>
+                           
                             <div id="ckeditor-classic"></div>
                         </div>
                         
@@ -1010,7 +1086,7 @@
                     <div class="col-md-12">
 
                         <div class="mb-3">
-                            <label for="floatingInput">Message</label>
+                           
                             <div id="ckeditor-classic2"></div>
                         </div>
                         
