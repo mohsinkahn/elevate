@@ -110,8 +110,35 @@ background-color: #5AD111;
         <div class="card border-none">
           <div class="card-header align-items-center py-2 border-none">
             <div class="row">
-              <div class="col-md-10 col-10">
+              <div class="col-md-4 col-10">
                 <h4 class="card-title mb-0 mt-head">Opportunities</h4>
+              </div>
+              <div class="col-md-2">
+              <div class="mb-3">
+                    <select class="form-select">
+                      <option>Master Pipeline</option>
+                      <option>Large select</option>
+                      <option>Small select</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="col-md-2">
+              <div class="mb-3">
+                    <select class="form-select">
+                      <option>Owner</option>
+                      <!-- <option>Large select</option>
+                      <option>Small select</option> -->
+                    </select>
+                  </div>
+              </div>
+              <div class="col-md-2">
+              <div class="mb-3">
+                    <select class="form-select">
+                      <option>Open</option>
+                      <!-- <option>Large select</option>
+                      <option>Small select</option> -->
+                    </select>
+                  </div>
               </div>
               <div class="col-md-2 col-2">
                 <a href="#" class="btn btn-primary px-5 float-end">Add</a>
