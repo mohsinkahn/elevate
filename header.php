@@ -63,7 +63,7 @@
                     <div class="navbar-brand-box">
                         <a href="index.php" class="logo logo-dark">
                             <span class="logo-sm">
-                                <!-- <img src="assets/images/logo.png" alt="" style="height:24px"> -->
+                                <img src="assets/images/small.png" alt="" style="height:24px">
                             </span>
                             <span class="logo-lg">
                                 <img src="assets/images/logo.png" alt="" style="height:60px">
@@ -73,7 +73,7 @@
 
                         <a href="index.php" class="logo logo-light">
                             <span class="logo-sm">
-                                <!-- <img src="assets/images/logo.png" alt="" style="height:24px"> -->
+                                <img src="assets/images/small.png" alt="" style="height:24px">
                             </span>
                             <span class="logo-lg">
                                 <img src="assets/images/logo.png" alt="" style="height:60px">
