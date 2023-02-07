@@ -45,15 +45,16 @@
 <script src="assets/libs/feather-icons/feather.min.js"></script>
 <!-- pace js -->
 <script src="assets/libs/pace-js/pace.min.js"></script>
-
-
-
-
+<!-- apexcharts js -->
+<script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+<!-- apexcharts init -->
+<!-- <script src="assets/js/pages/apexcharts.init.js"></script> -->
 <!-- dashboard init -->
 <script src="assets/js/pages/dashboard.init.js"></script>
 
 
-
+<!-- funnel chart -->
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
 <script src="assets/js/app.js"></script>
 
@@ -67,24 +68,17 @@
 <!-- Calendar init -->
 <script src="assets/js/pages/calendar.init.js"></script>
 
-<!-- table filter  -->
-<!-- <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-<script src="https://www.jqueryscript.net/demo/Excel-like-Bootstrap-Table-Sorting-Filtering-Plugin/excel-bootstrap-table-filter-bundle.js"></script>
-<link rel="stylesheet" href="https://www.jqueryscript.net/demo/Excel-like-Bootstrap-Table-Sorting-Filtering-Plugin/excel-bootstrap-table-filter-style.css" /> -->
-
 <!-- Required datatable js -->
 <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
 <!-- Datatable init js -->
 <!-- <script src="assets/js/pages/datatables.init.js"></script> -->
 <script src="assets/js/pages/datatable-pages.init.js"></script>
-<!-- apexcharts js -->
-<script src="assets/libs/apexcharts/apexcharts.min.js"></script>
 
-<!-- apexcharts init -->
-<!-- <script src="assets/js/pages/apexcharts.init.js"></script> -->
+
 <script src="assets/js/pages/line-chart.js"></script>
 <script src="assets/js/pages/column-chart.js"></script>
+<script src="assets/js/pages/pie_chart.js"></script>
 
 <!-- dropzone js -->
 <script src="assets/libs/dropzone/min/dropzone.min.js"></script>

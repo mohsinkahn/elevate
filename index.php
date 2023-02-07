@@ -97,7 +97,7 @@
 
     </div>
     <div class="row">
-      <div class="col-xl-8">
+      <div class="col-xl-6">
         <!-- card -->
         <div class="card">
           <!-- card body -->
@@ -123,7 +123,9 @@
             <div class="row align-items-center">
               <div class="col-xl-12">
                 <div>
-                  <div id="line_chart_datalabel" data-colors='["#5156be", "#2ab57d"]' class="apex-charts" dir="ltr"></div>
+                  <!-- <div id="line_chart_datalabel" data-colors='["#5156be", "#2ab57d"]' class="apex-charts" dir="ltr"></div> -->
+                  <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
                 </div>
               </div>
 
@@ -135,7 +137,7 @@
       </div>
       <!-- end row-->
 
-      <div class="col-xl-4">
+      <div class="col-xl-6">
         <!-- card -->
         <div class="card">
           <!-- card body -->
@@ -156,10 +158,10 @@
             </div>
           </div>
           <div class="card-body">
+          
+            <!-- <div id="column_chart_datalabel" data-colors='["#5156be"]' class="apex-charts" dir="ltr"></div> -->
            
-
-            <div id="column_chart_datalabel" data-colors='["#5156be"]' class="apex-charts" dir="ltr"></div>
-
+            <div id="pie_chart" data-colors='["#2ab57d", "#5156be", "#fd625e", "#4ba6ef", "#ffbf53"]' class="apex-charts" dir="ltr"></div>
 
           </div>
           <!-- end card body -->
@@ -466,5 +468,46 @@
   </div>
   <!-- container-fluid -->
 </div>
+<script>
+window.onload = function () {
 
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2", //"light1", "dark1", "dark2"
+	title:{
+		text: "Sales Analysis - June 2016"
+	},
+	data: [{
+		type: "funnel",
+		indexLabelPlacement: "inside",
+		indexLabelFontColor: "white",
+		toolTipContent: "<b>{label}</b>: {y} <b>({percentage}%)</b>",
+		indexLabel: "{label} ({percentage}%)",
+		dataPoints: [
+			{ y: 1400, label: "Leads" },
+			{ y: 1212, label: "Initial Communication" },
+			{ y: 1080, label: "Customer Evaluation" },
+			{ y: 665,  label: "Negotiation" },
+			{ y: 578, label: "Order Received" },
+			{ y: 549, label: "Payment" }
+		]
+	}]
+});
+calculatePercentage();
+chart.render();
+
+function calculatePercentage() {
+	var dataPoint = chart.options.data[0].dataPoints;
+	var total = dataPoint[0].y;
+	for(var i = 0; i < dataPoint.length; i++) {
+		if(i == 0) {
+			chart.options.data[0].dataPoints[i].percentage = 100;
+		} else {
+			chart.options.data[0].dataPoints[i].percentage = ((dataPoint[i].y / total) * 100).toFixed(2);
+		}
+	}
+}
+
+}
+</script>
 <?php require_once("footer.php") ?>
