@@ -878,10 +878,10 @@ body[data-layout=horizontal] .footer {
 
 .mm-active .active {
     color: white !important;
-    background-image: linear-gradient(to right, #3787d2 , #3787d2);
+    background-image: linear-gradient(to right, #3787d2 , #101494);
     border-radius: 0.3rem;
-    outline: 3px solid white!important;
-    outline-offset: -4px;
+    /* outline: 2px solid white!important;
+    outline-offset: -3px; */
 }
 
 .mm-active .active i {

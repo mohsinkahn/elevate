@@ -13,8 +13,8 @@ body{
 }
 .active>.page-link, .page-link.active{
     background-color:#3787d2;
-    outline: 3px solid white!important;
-    outline-offset: -4px;
+    /* outline: 3px solid white!important;
+    outline-offset: -4px; */
 }
 .dataTables_wrapper .dataTables_filter input {
     /* background-color: #f3f3f3!important; */
@@ -99,8 +99,16 @@ opacity:0;
     height:25px;
     
 } */
+.highlight .btn-primary{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #3787d2!important;
+}
+
 .text-nowrap .text-dark{
-    font-size: 11px;
+    font-size: 16px;
     font-weight: bold;
 } 
 .red-text{
@@ -140,8 +148,8 @@ opacity:0;
     /* background-image: linear-gradient(to right, #3787d2 , ); */
     background-color: #3787d2;
     border-radius: 0.3rem;
-    outline: 3px solid white!important;
-    outline-offset: -4px;
+    /* outline: 3px solid white!important;
+    outline-offset: -4px; */
     height: 60px;
     width: 70px;
     margin-left:auto;
@@ -164,8 +172,8 @@ display: none;
 }
 .btn-primary{
     background-color:  #3787d2!important;
-    outline: 3px solid white!important;
-    outline-offset: -4px;
+    /* outline: 3px solid white!important;
+    outline-offset: -4px; */
 }
 .border-none{
     border: none !important;
@@ -257,6 +265,7 @@ border-radius: 1.4rem;
 .form-select{
     border: 1px solid #3787d2!important;
     border-radius: 0.4rem!important;
+    
 }
 .sms-msg{
     position: absolute;
@@ -297,8 +306,8 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child{
     padding: 7px;
     color: white;
     border-radius: 0.3rem;
-    outline: 3px solid white!important;
-    outline-offset: -4px;
+    /* outline: 3px solid white!important;
+    outline-offset: -4px; */
 }
 
 .upper-head {

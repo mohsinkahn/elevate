@@ -168,7 +168,7 @@
                         </li>
                        
                         <li>
-                            <a href="appointments.php">
+                            <a href="report.php">
                                 <i class="mdi mdi-trending-up"></i>
                                 <span>Reports</span>
                             </a>

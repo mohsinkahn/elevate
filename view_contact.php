@@ -153,20 +153,19 @@
                                             <div class="col-md-4 col-12">
                                                 <h4 class="card-title  mt-head">Appointments</h4>
                                             </div>
-                                            <div class="col-md-4 col-12">
+                                            <div class="col-md-3 col-12">
                                                 <select class="form-select mb-3">
                                                     <option> Pending</option>
                                                     <option>Completed</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-4 col-12">
+                                            <div class="col-md-5 col-12">
                                                 <a href="#" class="btn btn-primary px-3 float-end mb-3 mar-left" data-bs-toggle="modal" data-bs-target="#appoint">Add Appointment</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card-body appointment-overflow">
-                                        <div class="card" >
-
+                                        <div class="card">
                                         <div class="card-body completed">
                                                 <div class="row align-items-center">
                                                     <div class="col-md-6">
@@ -848,7 +847,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"></button>
 
             </div>
-            <div class="modal-body p-4">
+            <div class="modal-body">
             <form class="needs-validation" name="event-form" id="form-event" novalidate="">
                     <div class="row">
                         <div class="col-12 col-md-6">
@@ -914,7 +913,7 @@
                 <h5 class="modal-title" id="staticBackdropLabel">Add Appointment</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body p-4">
+            <div class="modal-body">
                 <form class="needs-validation" name="event-form" id="form-event" novalidate="">
                     <div class="row">
                     <div class="col-12 col-md-6">
@@ -1102,6 +1101,57 @@
     </div>
 </div>
 
+<!-- task modal -->
+<div class="modal fade" id="task" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Add Task</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <form class="needs-validation" name="event-form" id="form-event" novalidate="">
+                <div class="row form-group mt-3">
+                      <div class="col-md-12">
+                      <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="task title">
+                          <label for="floatingInput">Task Title</label>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                      <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="description">
+                          <label for="floatingInput">Description</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                      <div class="col-md-6">
+                        <select class=" form-select" style="height: 58px;">
+                          <option>Not Assigned</option>
+                          <option>John Dea</option>
+                          <option>Albert Henry</option>
+                        </select>
+                        
+                      </div>
+                      <div class="col-md-6">
+                      <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Dob" onclick="this.type='date'">
+                                <label for="floatingInput">Date</label>
+                            </div>
+                        
+                      </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
     let email_temp_input = document.getElementById('formCheck1');

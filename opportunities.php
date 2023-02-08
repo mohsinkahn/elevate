@@ -100,6 +100,19 @@ background-color: #5AD111;
         /* padding: 15px; */
         border-radius: 4px;
     }
+    .nav-link.active {
+    background-color: transparent !important;
+  }
+  .flex-shrink-0 {
+    /* border:2px solid red !important; */
+    padding-left: 10px !important;
+  }
+  .ml-5 {
+    margin-left: -10px;
+  }
+  .taskText {
+    height : 160px !important;
+  }
 </style>
 
 
@@ -141,7 +154,7 @@ background-color: #5AD111;
                   </div>
               </div>
               <div class="col-md-2 col-2">
-                <a href="#" class="btn btn-primary px-5 float-end">Add</a>
+                <a href="#" class="btn btn-primary px-5 float-end" data-bs-toggle="modal" data-bs-target="#opportunity">Add</a>
               </div>
             </div>
           </div>
@@ -183,7 +196,7 @@ background-color: #5AD111;
                                </a>
                               </div>
                             <div class="col-md-6 text-right">
-                              <a href="#" class="btn btn-primary">
+                              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#opportunity-edit">
                                 <i class="fa fa-plus"></i> Task
                               </a>
                               </div>
@@ -211,7 +224,6 @@ background-color: #5AD111;
                               </a>
                               </div>
                            </div>
-                          
                         </li>
                         <li class="highlight">
                             <h4>Maria Jardines</h4>
@@ -418,7 +430,7 @@ background-color: #5AD111;
                         </li>
                     </ol>
                 </div>
-                <div class="col-md-4">
+              <div class="col-md-4">
                 <div class="upper-head">
                     <div class="inner">
                       <div> 
@@ -453,8 +465,7 @@ background-color: #5AD111;
                                 <i class="fa fa-plus"></i> Task
                               </a>
                               </div>
-                           </div>
-                          
+                           </div>        
                         </li>
                         <li class="highlight">
                             <h4>Maria Jardines</h4>
@@ -852,6 +863,536 @@ background-color: #5AD111;
     </div>
   </div>
 </div>
+
+<!-- add opportunities modal  -->
+<!-- Opportunity modal -->
+<div class="modal fade" id="opportunity" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Add Opportunity</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="flex-shrink-0 mt-3">
+                  <ul class="nav justify-content-start nav-tabs-custom rounded card-header-tabs ml-2" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" data-bs-toggle="tab" href="#OppModal" role="tab" aria-selected="true">
+                        <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                        <span class="d-none d-sm-block rem-bg">Opportunity</span>
+                      </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" data-bs-toggle="tab" href="#Book" role="tab" aria-selected="false"
+                        tabindex="-1" id="sms2">
+                        <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                        <span class="d-none d-sm-block rem-bg ">Book/Update Appointment</span>
+                      </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" data-bs-toggle="tab" href="#Tasks" role="tab" aria-selected="false"
+                        tabindex="-1" id="note2">
+                        <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+                        <span class="d-none d-sm-block rem-bg">Tasks</span>
+                      </a>
+                    </li>
+
+                  </ul>
+                </div>
+
+                <!-- Opportunity Modal Body -->
+
+                <div class='tab-content text-muted campaign'>
+                  <div class="modal-body tab-pane active" role="tabpanel" id='OppModal'>
+                    <div class="row mt-4">
+                      <div class='col'>
+                        <h6>Contact Info</h6>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                      <div class="col-md-4">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="contact name">
+                            <label for="floatingInput">Contact Name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="email">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                      <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="phone">
+                            <label for="floatingInput">Phone</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                    <div class="col-md-6">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="tags">
+                            <label for="floatingInput">Tags</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="company name">
+                            <label for="floatingInput">Company Name</label>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                      <div class='col'>
+                        <h6>Opportunity Info</h6>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                    <div class="col-md-4">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="opportunity name">
+                            <label for="floatingInput">Opportunity Name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                      <div class="mb-3">
+                      <select class="form-select" style="height: 58px;">
+                        <option value="">Pipeline</option>
+                          <option>Master Pipeline</option>
+                          <option>Coordinator Pipeline</option>
+                          <option>In House Pipeline</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                      <div class="mb-3">
+                      <select class=" form-select" style="height: 58px;">
+                        <option value="">Stage</option>
+                          <option>Lead In</option>
+                          <option>A</option>
+                          <option>B</option>
+                          <option>C</option>
+                        </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                      <select class=" form-select" style="height: 58px;">
+                        <option value="">Status</option>
+                          <option>Open</option>
+                          <option>Won</option>
+                          <option>Lost</option>
+                          <option>Abundant</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                       <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="lead value">
+                            <label for="floatingInput">Lead Value</label>
+                       </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                     <div class="col-md-6"> 
+                       <div class="mb-3">
+                       <select class=" form-select" style="height: 58px;">
+                        <option value="">Owner</option>
+                          <option>Unassigned</option>
+                          <option>John Dea</option>
+                          <option>Albert Henry</option>
+                        </select>  
+                       </div>
+                     </div>
+                     <div class="col-md-6"> 
+                     <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="opportunity source">
+                            <label for="floatingInput">Opportunity Source</label>
+                       </div>
+                     </div>
+                     
+                    </div>
+                   
+                  </div>
+                </div>
+
+                <!-- Opportunity Modal Body -->
+                <div class='tab-content text-muted campaign'>
+                  <div class="modal-body tab-pane" role="tabpanel" id='Book'>
+                   
+                    <div class="row form-group mt-3">
+                      <div class="col">
+                        <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="appointment title">
+                          <label for="floatingInput">Appointment Title</label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="mb-3 ">
+                          <select name="" id="" class="form-select" style="height:58px">
+                            <option value="">Status</option>
+                            <option value="">Confirm</option>
+                            <option value="">Cancel</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                      <div class="col">
+                        <div class="form-floating mb-3">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="Dob"
+                            onclick="this.type='date'">
+                          <label for="floatingInput">Date</label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="mb-3 ">
+                          <select name="" id="" class="form-select" style="height:58px">
+                            <option value="">Time</option>
+                            <option value="">8:00 am - 9:00 am</option>
+                            <option value="">9:00 am - 10:00 am</option>
+                            <option value="">10:00 am - 11:00 am</option>
+                            <option value="">11:00 am - 12:00 pm</option>
+                            <option value="">12:00 pm - 1:00 pm</option>
+                            <option value="">1:00 am - 2:00 pm</option>
+                            <option value="">2:00 am - 3:00 pm</option>
+                            <option value="">3:00 am - 4:00 pm</option>
+                            <option value="">4:00 am - 5:00 pm</option>
+                            <option value="">5:00 am - 6:00 pm</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row form-group mt-3">
+                      <div class="col">
+                        <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="appointment title">
+                          <label for="floatingInput">Appointment Title</label>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Opportunity Modal Body -->
+                <div class='tab-content text-muted campaign'>
+                  <div class="modal-body tab-pane" role="tabpanel" id='Tasks'>                   
+                    <div class="row form-group mt-3">
+                      <div class="col-md-12">
+                      <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="task title">
+                          <label for="floatingInput">Task Title</label>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                      <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="description">
+                          <label for="floatingInput">Description</label>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="row form-group mt-3">
+                      <div class="col-md-6">
+                        <select class=" form-select" style="height: 58px;">
+                          <option>Not Assigned</option>
+                          <option>John Dea</option>
+                          <option>Albert Henry</option>
+                        </select>
+                        
+                      </div>
+                      <div class="col-md-6">
+                      <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Dob" onclick="this.type='date'">
+                                <label for="floatingInput">Date</label>
+                            </div>
+                        
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-primary">Save</button>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- end -->
+
+<!-- edit opportunit -->
+<div class="modal fade" id="opportunity-edit" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Edit Opportunity</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="flex-shrink-0 mt-3">
+                  <ul class="nav justify-content-start nav-tabs-custom rounded card-header-tabs ml-2" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" data-bs-toggle="tab" href="#OppModal2" role="tab" aria-selected="true">
+                        <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                        <span class="d-none d-sm-block rem-bg">Opportunity</span>
+                      </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" data-bs-toggle="tab" href="#Book2" role="tab" aria-selected="false"
+                        tabindex="-1" id="sms2">
+                        <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                        <span class="d-none d-sm-block rem-bg ">Book/Update Appointment</span>
+                      </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" data-bs-toggle="tab" href="#Tasks2" role="tab" aria-selected="false"
+                        tabindex="-1" id="note2">
+                        <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+                        <span class="d-none d-sm-block rem-bg">Tasks</span>
+                      </a>
+                    </li>
+
+                  </ul>
+                </div>
+
+                <!-- Opportunity Modal Body -->
+
+                <div class='tab-content text-muted campaign'>
+                  <div class="modal-body tab-pane active" role="tabpanel" id='OppModal2'>
+                    <div class="row mt-4">
+                      <div class='col'>
+                        <h6>Contact Info</h6>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                      <div class="col-md-4">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="contact name">
+                            <label for="floatingInput">Contact Name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="email">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                      <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="phone">
+                            <label for="floatingInput">Phone</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                    <div class="col-md-6">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="tags">
+                            <label for="floatingInput">Tags</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="company name">
+                            <label for="floatingInput">Company Name</label>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                      <div class='col'>
+                        <h6>Opportunity Info</h6>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                    <div class="col-md-4">
+                      <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="opportunity name">
+                            <label for="floatingInput">Opportunity Name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                      <div class="mb-3">
+                      <select class="form-select" style="height: 58px;">
+                        <option value="">Pipeline</option>
+                          <option>Master Pipeline</option>
+                          <option>Coordinator Pipeline</option>
+                          <option>In House Pipeline</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                      <div class="mb-3">
+                      <select class=" form-select" style="height: 58px;">
+                        <option value="">Stage</option>
+                          <option>Lead In</option>
+                          <option>A</option>
+                          <option>B</option>
+                          <option>C</option>
+                        </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                      <select class=" form-select" style="height: 58px;">
+                        <option value="">Status</option>
+                          <option>Open</option>
+                          <option>Won</option>
+                          <option>Lost</option>
+                          <option>Abundant</option>
+                        </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                       <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="lead value">
+                            <label for="floatingInput">Lead Value</label>
+                       </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                     <div class="col-md-6"> 
+                       <div class="mb-3">
+                       <select class=" form-select" style="height: 58px;">
+                        <option value="">Owner</option>
+                          <option>Unassigned</option>
+                          <option>John Dea</option>
+                          <option>Albert Henry</option>
+                        </select>  
+                       </div>
+                     </div>
+                     <div class="col-md-6"> 
+                     <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="opportunity source">
+                            <label for="floatingInput">Opportunity Source</label>
+                       </div>
+                     </div>
+                     
+                    </div>
+                   
+                  </div>
+                </div>
+
+                <!-- Opportunity Modal Body -->
+                <div class='tab-content text-muted campaign'>
+                  <div class="modal-body tab-pane" role="tabpanel" id='Book2'>
+                   
+                    <div class="row form-group mt-3">
+                      <div class="col">
+                        <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="appointment title">
+                          <label for="floatingInput">Appointment Title</label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="mb-3 ">
+                          <select name="" id="" class="form-select" style="height:58px">
+                            <option value="">Status</option>
+                            <option value="">Confirm</option>
+                            <option value="">Cancel</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row form-group mt-3">
+                      <div class="col">
+                        <div class="form-floating mb-3">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="Dob"
+                            onclick="this.type='date'">
+                          <label for="floatingInput">Date</label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="mb-3 ">
+                          <select name="" id="" class="form-select" style="height:58px">
+                            <option value="">Time</option>
+                            <option value="">8:00 am - 9:00 am</option>
+                            <option value="">9:00 am - 10:00 am</option>
+                            <option value="">10:00 am - 11:00 am</option>
+                            <option value="">11:00 am - 12:00 pm</option>
+                            <option value="">12:00 pm - 1:00 pm</option>
+                            <option value="">1:00 am - 2:00 pm</option>
+                            <option value="">2:00 am - 3:00 pm</option>
+                            <option value="">3:00 am - 4:00 pm</option>
+                            <option value="">4:00 am - 5:00 pm</option>
+                            <option value="">5:00 am - 6:00 pm</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row form-group mt-3">
+                      <div class="col">
+                        <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="appointment title">
+                          <label for="floatingInput">Appointment Title</label>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Opportunity Modal Body -->
+                <div class='tab-content text-muted campaign'>
+                  <div class="modal-body tab-pane" role="tabpanel" id='Tasks2'>                   
+                    <div class="row form-group mt-3">
+                      <div class="col-md-12">
+                      <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="task title">
+                          <label for="floatingInput">Task Title</label>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                      <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="description">
+                          <label for="floatingInput">Description</label>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="row form-group mt-3">
+                      <div class="col-md-6">
+                        <select class=" form-select" style="height: 58px;">
+                          <option>Not Assigned</option>
+                          <option>John Dea</option>
+                          <option>Albert Henry</option>
+                        </select>
+                        
+                      </div>
+                      <div class="col-md-6">
+                      <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Dob" onclick="this.type='date'">
+                                <label for="floatingInput">Date</label>
+                            </div>
+                        
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-primary">Save</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!-- end -->
 <script>
   let email_temp_input = document.getElementById('formCheck1');
   let sms_temp_input = document.getElementById('formCheck2');

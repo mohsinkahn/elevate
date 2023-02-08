@@ -7,7 +7,7 @@
         <!-- card -->
         <div class="card card-h-100 box-shadow">
           <!-- card body -->
-          <div class="card-body">
+          <div class="card-body pb-0">
             <div class="row align-items-center">
               <div class="col-6">
                 <span class="text-muted mb-3 lh-1 d-block text-truncate">All Opportunities</span>
@@ -22,18 +22,21 @@
                 </div>
               </div>
             </div>
-            <div class="text-nowrap d-flex justify-content-between mb-2">
+            <div class="text-nowrap d-flex justify-content-between mb-2 text-center">
+              <div>
               <span class="ms-1 red-text">Closed</span>
-              <span class="text-dark">09</span>
-            </div>
-            <div class="text-nowrap d-flex justify-content-between mb-2">
+              <p class="text-dark">09</p>
+              </div>
+              <div>
               <span class="ms-1 green-text">Open</span>
-              <span class="text-dark">34</span>
-            </div>
-            <div class="text-nowrap d-flex justify-content-between mb-2">
+              <p class="text-dark">34</p>  
+              </div>
+              <div>
               <span class="ms-1 gray-text">Lost</span>
-              <span class="text-dark">40</span>
+              <p class="text-dark">40</p>  
+              </div>
             </div>
+            
           </div><!-- end card body -->
         </div><!-- end card -->
       </div><!-- end col -->
@@ -42,7 +45,7 @@
         <!-- card -->
         <div class="card card-h-100 box-shadow">
           <!-- card body -->
-          <div class="card-body">
+          <div class="card-body pb-0">
             <div class="row align-items-center">
               <div class="col-6">
                 <span class="text-muted mb-3 lh-1 d-block text-truncate">Pipeline Value</span>
@@ -56,17 +59,19 @@
                 </div>
               </div>
             </div>
-            <div class="text-nowrap d-flex justify-content-between mb-2">
+            <div class="text-nowrap d-flex justify-content-between mb-2 text-center">
+              <div>
               <span class="ms-1 red-text">Closed</span>
-              <span class="text-dark">$09</span>
-            </div>
-            <div class="text-nowrap d-flex justify-content-between mb-2">
+              <p class="text-dark">$89</p>
+              </div>
+              <div>
               <span class="ms-1 green-text">Open</span>
-              <span class="text-dark">$34</span>
-            </div>
-            <div class="text-nowrap d-flex justify-content-between mb-2">
+              <p class="text-dark">$34</p>  
+              </div>
+              <div>
               <span class="ms-1 gray-text">Lost</span>
-              <span class="text-dark">$40</span>
+              <p class="text-dark">$40</p>  
+              </div>
             </div>
           </div><!-- end card body -->
         </div><!-- end card -->
@@ -76,7 +81,7 @@
         <!-- card -->
         <div class="card card-h-100 box-shadow">
           <!-- card body -->
-          <div class="card-body">
+          <div class="card-body pb-0">
             <div class="row align-items-center">
               <div class="col-6">
                 <span class="text-muted mb-3 lh-1 d-block text-truncate">Conversion Rate</span>
