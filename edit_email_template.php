@@ -99,5 +99,6 @@
         </div>
         <!-- container-fluid -->
     </div>
+    <script src="assets/libs/%40ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
 
     <?php require_once("footer.php") ?>

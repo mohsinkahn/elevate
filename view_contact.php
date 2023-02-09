@@ -1152,6 +1152,7 @@
         </div>
     </div>
 </div>
+<script src="assets/libs/%40ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
 
 <script>
     let email_temp_input = document.getElementById('formCheck1');

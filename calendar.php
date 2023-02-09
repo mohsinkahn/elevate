@@ -176,5 +176,12 @@
 
 
 
+<script src="assets/libs/%40fullcalendar/core/main.min.js"></script>
+<script src="assets/libs/%40fullcalendar/bootstrap/main.min.js"></script>
+<script src="assets/libs/%40fullcalendar/daygrid/main.min.js"></script>
+<script src="assets/libs/%40fullcalendar/timegrid/main.min.js"></script>
+<script src="assets/libs/%40fullcalendar/interaction/main.min.js"></script>
 
+<!-- Calendar init -->
+<script src="assets/js/pages/calendar.init.js"></script>
 <?php require_once("footer.php") ?>

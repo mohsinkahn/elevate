@@ -515,4 +515,6 @@ function calculatePercentage() {
 
 }
 </script>
+<script src="assets/js/pages/dashboard.init.js"></script>
+
 <?php require_once("footer.php") ?>

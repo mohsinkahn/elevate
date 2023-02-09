@@ -26,12 +26,7 @@
 
 <script>
     // Use the plugin once the DOM has been loaded.
-    $(document).ready(function() {
-        $('#table').excelTableFilter();
-    });
-    $(document).ready(function() {
-        $('#table2').excelTableFilter();
-    });
+   
 
     // Apply the plugin 
 </script>
@@ -46,11 +41,13 @@
 <!-- pace js -->
 <script src="assets/libs/pace-js/pace.min.js"></script>
 <!-- apexcharts js -->
+
+
 <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
 <!-- apexcharts init -->
 <!-- <script src="assets/js/pages/apexcharts.init.js"></script> -->
 <!-- dashboard init -->
-<script src="assets/js/pages/dashboard.init.js"></script>
 
 
 <!-- funnel chart -->
@@ -59,20 +56,12 @@
 <script src="assets/js/app.js"></script>
 
 <!-- full calendar script -->
-<script src="assets/libs/%40fullcalendar/core/main.min.js"></script>
-<script src="assets/libs/%40fullcalendar/bootstrap/main.min.js"></script>
-<script src="assets/libs/%40fullcalendar/daygrid/main.min.js"></script>
-<script src="assets/libs/%40fullcalendar/timegrid/main.min.js"></script>
-<script src="assets/libs/%40fullcalendar/interaction/main.min.js"></script>
 
-<!-- Calendar init -->
-<script src="assets/js/pages/calendar.init.js"></script>
 
 <!-- Required datatable js -->
 <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-<!-- Datatable init js -->
-<!-- <script src="assets/js/pages/datatables.init.js"></script> -->
+
 <script src="assets/js/pages/datatable-pages.init.js"></script>
 
 
@@ -90,12 +79,11 @@
 <script src="assets/libs/twitter-bootstrap-wizard/prettify.js"></script>
 
 <!-- form wizard init -->
-<script src="assets/js/pages/form-wizard.init.js"></script>
+<!-- <script src="assets/js/pages/form-wizard.init.js"></script> -->
   <!-- ckeditor -->
-  <script src="assets/libs/%40ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
 
 <!-- init js -->
-<script src="assets/js/pages/form-editor.init.js"></script>
+<!-- <script src="assets/js/pages/form-editor.init.js"></script> -->
 
 <!-- init date range js -->
 <script>

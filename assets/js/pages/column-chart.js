@@ -1,11 +1,25 @@
 function getChartColorsArray(e) {
     e = $(e).attr("data-colors");
-    return (e = JSON.parse(e)).map(function (e) {
-      e = e.replace(" ", "");
-      if (-1 == e.indexOf("--")) return e;
-      e = getComputedStyle(document.documentElement).getPropertyValue(e);
-      return e || void 0;
-    });
+
+
+    let isvalidjson = false;
+    try{
+      JSON.parse(e)
+      isvalidjson = true;
+    }catch{
+      isvalidjson = false;
+    }
+    if(isvalidjson){
+      return (e = JSON.parse(e)).map(function (e) {
+        e = e.replace(" ", "");
+        if (-1 == e.indexOf("--")) return e;
+        e = getComputedStyle(document.documentElement).getPropertyValue(e);
+        return e || void 0;
+      });
+    }
+
+
+   
   }
   var columnDatalabelColors = getChartColorsArray("#column_chart_datalabel"),
   options = {

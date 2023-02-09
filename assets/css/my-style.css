@@ -105,6 +105,7 @@ opacity:0;
     padding-left: 8px;
     padding-right: 8px;
     background-color: #3787d2!important;
+    box-shadow:none!important;
 }
 
 .text-nowrap .text-dark{
