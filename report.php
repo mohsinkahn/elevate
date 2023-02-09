@@ -388,7 +388,8 @@
 
                                             <div class="table-responsive">
                                                 <div class="row mt-4">
-                                                    <h4 style="margin-left:10px">Latest Phone Calls </h4>
+                                                <h4 class="card-title mb-4  mt-head">Latest Phone Calls</h4>
+                                                    <!-- <h4 style="margin-left:10px">Latest Phone Calls </h4> -->
                                                 </div>
 
                                                 <table
@@ -1060,12 +1061,12 @@
 
                                     <!-- Tab panes  |  App reporting Pane -->
                                     <div class="tab-pane" id="report" role="tabpanel">
-                                        <h4 class="card-title   mt-head">Appointment Report</h4>
+                                        <h4 class="card-title mb-4   mt-head">Appointment Report</h4>
 
 
                                         <!-- Cards Row -->
 
-                                        <div class="row card-row mt-2">
+                                        <div class="row">
                                             <div class="col-xl-3">
                                                 <div class="card p-2 mb-sm-0 second-row-card-app">
                                                     <div class="card-header">
