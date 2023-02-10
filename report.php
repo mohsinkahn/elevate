@@ -68,15 +68,15 @@
         font-size: small;
     }
 
-    .second-row-card {
-        /* border-radius : 10px !important; */
+    /* .second-row-card {
+        border-radius : 10px !important;
         box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
-    }
+    } */
 
     .table-card {
         border-radius: 0.25rem !important;
 
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
         height: 280px !important;
     }
 
@@ -130,7 +130,8 @@
     }
 
     .metrics-row {
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border:1px solid #e9e9ef;
+        border-radius: 0.25rem;
 
     }
 
@@ -183,9 +184,9 @@
         padding: 5px 10px;
     }
 
-    .second-row-card-app {
+    /* .second-row-card-app {
         border-radius: 20px;
-    }
+    } */
 </style>
 
 <div class="page-content">
@@ -267,8 +268,8 @@
                                             <div class="col-xl-4">
                                                 <div class="card p-2 mb-sm-0 bar-card">
                                                     <!-- card body -->
-                                                    <div class="card-header pb-1 ">
-                                                        <h5 class="card-title me-2">Top Sources</h5>
+                                                    <div class="card-header">
+                                                        <h4 class="card-title mb-0">Top Sources</h4>
 
                                                     </div>
                                                     <div class="card-body chart-card">
@@ -388,7 +389,7 @@
 
                                             <div class="table-responsive">
                                                 <div class="row mt-4">
-                                                <h4 class="card-title mb-4  mt-head">Latest Phone Calls</h4>
+                                                <h4 class="card-title   mt-head">Latest Phone Calls</h4>
                                                     <!-- <h4 style="margin-left:10px">Latest Phone Calls </h4> -->
                                                 </div>
 
@@ -1148,8 +1149,8 @@
                                             <div class="col-xl-4">
                                                 <div class="card p-2 mb-sm-0 bar-card">
                                                     <!-- card body -->
-                                                    <div class="card-header pb-1 ">
-                                                        <h5 class="card-title me-2">Top Sources</h5>
+                                                    <div class="card-header">
+                                                        <h4 class="card-title mb-0">Top Sources</h4>
 
                                                     </div>
                                                     <div class="card-body">

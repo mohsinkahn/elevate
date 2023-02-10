@@ -20,116 +20,300 @@
           <!-- end card header -->
 
           <div class="card-body">
-            <div class="table-responsive">
-              <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
-                <thead>
-                  <tr>
-                    
-                    <th scope="col">Name</th>
-                    <th scope="col">Phone</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Tags</th>
-                    <th scope="col">Last Activity</th>
-                    <th style="width: 80px; min-width: 80px;">Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                   
-                    <td>
-                      <div class="img-bk">
-                      <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle me-2">
+             <div class="card-header">
+             <ul class="nav justify-content-start nav-tabs-custom rounded card-header-tabs" role="tablist">
+                  <li class="nav-item">
+                      <a class="nav-link active" data-bs-toggle="tab" href="#all" role="tab">
+                          <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                          <span class="d-none d-sm-block">Smart Lists</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#restore" role="tab">
+                          <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                          <span class="d-none d-sm-block">Restore</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#tasks" role="tab">
+                          <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+                          <span class="d-none d-sm-block">Tasks</span>
+                      </a>
+                  </li>
+
+              </ul>
+             </div>
+         
+
+              <!-- Tab panes -->
+              <div class="tab-content p-3 text-muted">
+                  <div class="tab-pane active" id="all" role="tabpanel">
+                      <div class="table-responsive">
+                          <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
+                              <thead>
+                              <tr>
+
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Phone</th>
+                                  <th scope="col">Email</th>
+                                  <th scope="col">Tags</th>
+                                  <th scope="col">Last Activity</th>
+                                  <th style="width: 80px; min-width: 80px;">Action</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+
+                                  <td>
+                                      <div class="img-bk">
+                                          <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle me-2">
+                                      </div>
+
+                                      <a href="#" class="text-body">Phyllis Gatlin</a>
+                                  </td>
+                                  <td>+93388789908</td>
+                                  <td>phyllisgatlin@minia.com</td>
+                                  <td>
+                                      <div class="d-flex gap-2">
+                                          <a href="#" class="badge badge-soft-primary font-size-11">In-house</a>
+                                          <a href="#" class="badge badge-soft-primary font-size-11">+2</a>
+                                      </div>
+                                  </td>
+                                  <td>
+                                      <i class="mdi mdi-comment-outline"></i> 12 min ago
+                                  </td>
+                                  <td>
+                                      <div class="dropdown">
+                                          <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <i class="bx bx-dots-horizontal-rounded"></i>
+                                          </button>
+                                          <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
+                                              <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
+                                          </ul>
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr>
+
+                                  <td>
+                                      <div class="img-bk">
+                                          <img src="assets/images/users/avatar-1.jpg" alt="" class="avatar-sm rounded-circle me-2">
+                                      </div>
+
+                                      <a href="#" class="text-body">James Nix</a>
+                                  </td>
+                                  <td>+93388789908</td>
+                                  <td>jamesnix@minia.com</td>
+                                  <td>
+                                      <div class="d-flex gap-2">
+                                          <a href="#" class="badge badge-soft-primary font-size-11">In-house</a>
+                                          <a href="#" class="badge badge-soft-primary font-size-11">+2</a>
+                                      </div>
+                                  </td>
+                                  <td><i class="mdi mdi-cellphone-sound"></i> 12 min ago</td>
+                                  <td>
+                                      <div class="dropdown">
+                                          <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <i class="bx bx-dots-horizontal-rounded"></i>
+                                          </button>
+                                          <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
+                                              <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
+                                          </ul>
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr>
+
+                                  <td>
+                                      <div class="img-bk">
+                                          <img src="assets/images/users/avatar-3.jpg" alt="" class="avatar-sm rounded-circle me-2">
+                                      </div>
+
+                                      <a href="#" class="text-body">Darlene Smith</a>
+                                  </td>
+                                  <td>+93388789908</td>
+                                  <td>darlenesmith@minia.com</td>
+                                  <td>
+                                      <div class="d-flex gap-2">
+                                          <a href="#" class="badge badge-soft-primary font-size-11">In-house</a>
+                                          <a href="#" class="badge badge-soft-primary font-size-11">+2</a>
+                                      </div>
+                                  </td>
+                                  <td><i class="mdi mdi-email-outline"></i> 1 min ago</td>
+                                  <td>
+                                      <div class="dropdown">
+                                          <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <i class="bx bx-dots-horizontal-rounded"></i>
+                                          </button>
+                                          <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
+                                              <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
+                                          </ul>
+                                      </div>
+                                  </td>
+                              </tr>
+
+                              </tbody>
+                          </table>
                       </div>
-                      
-                      <a href="#" class="text-body">Phyllis Gatlin</a>
-                    </td>
-                    <td>+93388789908</td>
-                    <td>phyllisgatlin@minia.com</td>
-                    <td>
-                    <div class="d-flex gap-2">
-                        <a href="#" class="badge badge-soft-primary font-size-11">In-house</a>
-                        <a href="#" class="badge badge-soft-primary font-size-11">+2</a>
+
+                  </div>
+                  <div class="tab-pane" id="restore" role="tabpanel">
+                      <div class="table-responsive">
+                          <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
+                              <thead>
+                              <tr>
+
+                                  <th scope="col"></th>
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Phone</th>
+                                  <th scope="col">Email</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                               <tr>
+                                  <td><input type="checkbox"></td>
+                                  <td>
+                                      <a href="#" class="text-body">Phyllis Gatlin</a>
+                                  </td>
+                                  <td>+93388789908</td>
+                                  <td>phyllisgatlin@minia.com</td>
+
+                              </tr>
+
+
+                              </tbody>
+                          </table>
                       </div>
-                    </td>
-                    <td>
-                     <i class="mdi mdi-comment-outline"></i> 12 min ago
-                    </td>
-                    <td>
-                      <div class="dropdown">
-                        <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
-                        </ul>
+
+                  </div>
+                  <div class="tab-pane" id="tasks" role="tabpanel">
+                      <div class="table-responsive">
+                          <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
+                              <thead>
+                              <tr>
+                                  <th></th>
+                                  <th scope="col">Name & Description</th>
+                                  <th scope="col">Contact</th>
+                                  <th scope="col">Asignee</th>
+                                  <th scope="col">Due Date</th>
+                                  <th scope="col">Status</th>
+                                  <th style="width: 80px; min-width: 80px;">Action</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                  <td><input type="checkbox" id=""></td>
+                                  <td>
+                                      <a href="#" class="cursor-pointer whitespace-nowrap grid" target="_blank">
+                                          <h6>Follow up with Patient</h6>
+                                          <p> Follow up with pt aug/sept per Dr. Bhatia </p>
+                                      </a>
+                                  </td>
+                                  <td>
+                                      <div class="img-bk">
+                                          <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle me-2">
+                                      </div>
+
+                                      <a href="#" class="text-body">Phyllis Gatlin</a>
+                                  </td>
+                                  <td>John Doe</td>
+                                  <td>20-Feb @ 05:00 am</td>
+                                  <td>
+                                      <i class="dripicons dripicons-checkmark"></i>
+                                  </td>
+
+                                  <td>
+                                      <div class="dropdown">
+                                          <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <i class="bx bx-dots-horizontal-rounded"></i>
+                                          </button>
+                                          <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
+                                              <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
+                                          </ul>
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td><input type="checkbox" id=""></td>
+                                  <td>
+                                      <a href="#" class="cursor-pointer whitespace-nowrap grid" target="_blank">
+                                          <h6>Follow up with Patient</h6>
+                                          <p> Follow up with pt aug/sept per Dr. Bhatia </p>
+                                      </a>
+                                  </td>
+                                  <td>
+                                      <div class="img-bk">
+                                          <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle me-2">
+                                      </div>
+
+                                      <a href="#" class="text-body">Phyllis Gatlin</a>
+                                  </td>
+                                  <td>John Doe</td>
+                                  <td>20-Feb @ 05:00 am</td>
+                                  <td>
+                                      <i class="dripicons dripicons-checkmark"></i>
+                                  </td>
+
+                                  <td>
+                                      <div class="dropdown">
+                                          <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <i class="bx bx-dots-horizontal-rounded"></i>
+                                          </button>
+                                          <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
+                                              <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
+                                          </ul>
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td><input type="checkbox" id=""></td>
+                                  <td>
+                                      <a href="#" class="cursor-pointer whitespace-nowrap grid" target="_blank">
+                                          <h6>Follow up with Patient</h6>
+                                          <p> Follow up with pt aug/sept per Dr. Bhatia </p>
+                                      </a>
+                                  </td>
+                                  <td>
+                                      <div class="img-bk">
+                                          <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle me-2">
+                                      </div>
+
+                                      <a href="#" class="text-body">Phyllis Gatlin</a>
+                                  </td>
+                                  <td>John Doe</td>
+                                  <td>20-Feb @ 05:00 am</td>
+                                  <td>
+                                      <i class="dripicons dripicons-checkmark"></i>
+                                  </td>
+
+                                  <td>
+                                      <div class="dropdown">
+                                          <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <i class="bx bx-dots-horizontal-rounded"></i>
+                                          </button>
+                                          <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
+                                              <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
+                                          </ul>
+                                      </div>
+                                  </td>
+                              </tr>
+
+                              </tbody>
+                          </table>
                       </div>
-                    </td>
-                  </tr>
-                  <tr>
-                   
-                    <td>
-                      <div class="img-bk">
-                      <img src="assets/images/users/avatar-1.jpg" alt="" class="avatar-sm rounded-circle me-2">
-                      </div>
-                      
-                      <a href="#" class="text-body">James Nix</a>
-                    </td>
-                    <td>+93388789908</td>
-                    <td>jamesnix@minia.com</td>
-                    <td>
-                    <div class="d-flex gap-2">
-                        <a href="#" class="badge badge-soft-primary font-size-11">In-house</a>
-                        <a href="#" class="badge badge-soft-primary font-size-11">+2</a>
-                      </div>
-                    </td>
-                    <td><i class="mdi mdi-cellphone-sound"></i> 12 min ago</td>
-                    <td>
-                      <div class="dropdown">
-                        <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
-                        </ul>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                   
-                    <td>
-                      <div class="img-bk">
-                      <img src="assets/images/users/avatar-3.jpg" alt="" class="avatar-sm rounded-circle me-2">
-                      </div>
-                      
-                      <a href="#" class="text-body">Darlene Smith</a>
-                    </td>
-                    <td>+93388789908</td>
-                    <td>darlenesmith@minia.com</td>
-                    <td>
-                      <div class="d-flex gap-2">
-                        <a href="#" class="badge badge-soft-primary font-size-11">In-house</a>
-                        <a href="#" class="badge badge-soft-primary font-size-11">+2</a>
-                      </div>
-                    </td>
-                    <td><i class="mdi mdi-email-outline"></i> 1 min ago</td>
-                    <td>
-                      <div class="dropdown">
-                        <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="bx bx-dots-horizontal-rounded"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                          <li><a class="dropdown-item" href="view_contact.php"> <i class="far fa-eye"></i> View</a></li>
-                          <li><a class="dropdown-item" href="#"><i class="fas fa-pen"></i> Edit</a></li>
-                        </ul>
-                      </div>
-                    </td>
-                  </tr>
-                 
-                </tbody>
-              </table>
-            </div>
+
+                  </div>
+              </div>
+
+
+
+
 
           </div>
           <!-- end card body -->

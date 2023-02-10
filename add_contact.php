@@ -4,9 +4,8 @@
     .form-check .form-check-input {
         float: inherit !important;
     }
-
-    .form-check {
-        text-align: right;
+    .choices__inner{
+        padding: 11px 9px!important;
     }
 </style>
 
@@ -114,12 +113,10 @@
                                 <div class="col-md-12">
                                     <label for="floatingInput" style="font-weight:bold;">Additional Info</label>
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-6">
                                             <p>
                                                 Are You Currently An Elevate Psychiatry Patient?
                                             </p>
-                                        </div>
-                                        <div class="col-md-2 text-right">
                                             <div class="form-check mb-3">
                                                 <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
@@ -133,14 +130,10 @@
                                                 </label>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-6">
                                             <p>
                                                 Which Location Are You interested To Schedule Your Initial TMS Consultation?
                                             </p>
-                                        </div>
-                                        <div class="col-md-2 text-right">
                                             <div class="form-check mb-3">
                                                 <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
@@ -153,15 +146,15 @@
                                                     Coconut Grove
                                                 </label>
                                             </div>
+
                                         </div>
                                     </div>
+
                                     <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-6">
                                             <p>
                                                 Current Insurance Carrier?
                                             </p>
-                                        </div>
-                                        <div class="col-md-4 text-right">
                                             <div class="form-check mb-3">
                                                 <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
@@ -175,27 +168,23 @@
                                                 </label>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-6">
                                             <p>
                                                 Write name of insurance
                                             </p>
-                                        </div>
-                                        <div class="col-md-4 text-right">
                                             <div class="form-floating mb-3">
                                                 <input type="email" class="form-control" id="floatingInput" placeholder="insurance">
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
+
                                         </div>
                                     </div>
+
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-6">
                                             <p>
                                                 Have You Ever Been Diagnosed And Treated For Depression?
                                             </p>
-                                        </div>
-                                        <div class="col-md-2 text-right">
                                             <div class="form-check mb-3">
                                                 <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
@@ -209,27 +198,22 @@
                                                 </label>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-6">
                                             <p>
                                                 Who Referred You To TMS Treatment?
                                             </p>
-                                        </div>
-                                        <div class="col-md-4 text-right">
                                             <div class="form-floating mb-3">
                                                 <input type="email" class="form-control" id="floatingInput" placeholder="insurance">
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-6">
                                             <p>
                                                 How Many Antidpressant Medications Have You Tried Dropdown?
                                             </p>
-                                        </div>
-                                        <div class="col-md-4 text-right">
                                             <div class="form-floating mb-3">
                                                 <select name="" id="" class="form-select" style="height:58px;padding-top:8px">
                                                     <option value="">Select</option>
@@ -239,14 +223,10 @@
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-6">
                                             <p>
                                                 Are You In Or Have YOu Done Therapy?
                                             </p>
-                                        </div>
-                                        <div class="col-md-2 text-right">
                                             <div class="form-check mb-3">
                                                 <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
@@ -267,67 +247,54 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-6">
                                             <p>
                                                 Emergency Contact Name
                                             </p>
-                                        </div>
-                                        <div class="col-md-4 text-right">
                                             <div class="form-floating mb-3">
                                                 <input type="email" class="form-control" id="floatingInput" placeholder="insurance">
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-6">
                                             <p>
                                                 Emergency Contact Phone
                                             </p>
-                                        </div>
-                                        <div class="col-md-4 text-right">
                                             <div class="form-floating mb-3">
                                                 <input type="number" class="form-control" id="floatingInput" placeholder="insurance">
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
                                     </div>
+                                   
                                     <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-6">
                                             <p>
                                                 Feedback
                                             </p>
-                                        </div>
-                                        <div class="col-md-4 text-right">
                                             <div class="form-floating mb-3">
                                                 <!-- <input type="email" class="form-control" id="" placeholder="insurance"> -->
                                                 <textarea name="" id="floatingInput" class="form-control" cols="30" rows="10"></textarea>
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-12">
-                                            <label for="floatingInput" style="font-weight:bold;">Actions</label>
+                                        <div class="col-md-6">
+                                        <p for="floatingInput" style="font-weight:bold;">Actions</p>
                                             <div class="mb-3">
-                                                <label for="choices-text-remove-button" class="form-label font-size-13 text-muted">
-                                                   
-                                                <input class="form-control" id="choices-text-remove-button" type="text" value="Task-1,Task-2" placeholder="Enter something">
+                                                <label for="choices-text-remove-button" class="form-label font-size-13 text-muted" style="width:100%">
+
+                                                    <input class="form-control" id="choices-text-remove-button" type="text" value="facebook,TMS" placeholder="Enter something">
 
 
                                             </div>
                                         </div>
-
                                     </div>
 
                                 </div>
                             </div>
+                           
                             <div class="row">
                                 <div class="col-md-12 bord-bot">
                                     <div class="row align-items-center">
@@ -406,18 +373,18 @@
         </div>
         <!-- container-fluid -->
     </div>
-<!-- choices js -->
-<script src="assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <!-- choices js -->
+    <script src="assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
 
-<script>
-    $(document).ready(function(){
-        new Choices(document.getElementById("choices-text-remove-button"), {
-            delimiter: ",",
-            editItems: !0,
-            maxItemCount: 5,
-            removeItemButton: !0,
-        })
-    });
-</script>
+    <script>
+        $(document).ready(function() {
+            new Choices(document.getElementById("choices-text-remove-button"), {
+                delimiter: ",",
+                editItems: !0,
+                maxItemCount: 5,
+                removeItemButton: !0,
+            })
+        });
+    </script>
 
     <?php require_once("footer.php") ?>

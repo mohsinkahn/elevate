@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <title>Elevate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <!-- App favicon -->
     <!-- <link rel="shortcut icon" href="assets/images/favicon.ico"> -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
@@ -44,8 +44,8 @@
     <link href="assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />
     <!-- datepicker css -->
     <link rel="stylesheet" href="assets/libs/flatpickr/flatpickr.min.css">
-     <!-- twitter-bootstrap-wizard css -->
-     <link rel="stylesheet" href="assets/libs/twitter-bootstrap-wizard/prettify.css">
+    <!-- twitter-bootstrap-wizard css -->
+    <link rel="stylesheet" href="assets/libs/twitter-bootstrap-wizard/prettify.css">
 </head>
 
 <body>
@@ -77,7 +77,7 @@
                             </span>
                             <span class="logo-lg">
                                 <img src="assets/images/logo.png" alt="" style="height:60px">
-                                 <!-- <span class="logo-txt">Strategeye</span> -->
+                                <!-- <span class="logo-txt">Strategeye</span> -->
                             </span>
                         </a>
                     </div>
@@ -87,12 +87,24 @@
                     </button>
 
                     <!-- App Search-->
-                    <form class="app-search d-none d-lg-block">
-                        <div class="position-relative">
-                            <input type="text" class="form-control" placeholder="Search...">
-                            <button class="btn btn-primary" type="button"><i class="bx bx-search-alt align-middle"></i></button>
-                        </div>
-                    </form>
+
+                    <div style="padding-top:16px">
+                        <!-- <div class="btn-group" style="border: none !important;width: 100%;padding: 0 10px;">
+                            <button type="button" class="btn btn-info waves-effect waves-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Coconut Groove <i class="mdi mdi-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Dummy Location 1</a>
+                                <a class="dropdown-item" href="#">Dummy Location 2</a>
+                                <a class="dropdown-item" href="#">Dummy Location 3</a>
+                            </div>
+                        </div> -->
+                        <button style="box-shadow:none;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="mdi mdi-home-map-marker"></i> Locations
+                        </button>
+                    </div>
+
+
                 </div>
 
                 <div class="d-flex">
@@ -111,7 +123,7 @@
                             </form>
                         </div>
                     </div>
-                   
+
 
                     <div class="dropdown d-inline-block">
                         <button type="button" class="btn header-item bg-soft-light border-start border-end" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -121,8 +133,8 @@
                         </button>
                         <div class="dropdown-menu dropdown-menu-end">
                             <!-- item-->
-                            <a class="dropdown-item" href="profile.php"><i class="fa fa-user font-size-16 align-middle me-1"></i> Profile</a>
-                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-user font-size-16 align-middle me-1"></i> Profile</a>
+                            <a class="dropdown-item" href="settings.php"><i class="fa fa-cog font-size-16 align-middle me-1"></i> Setting</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#"><i class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
                         </div>
@@ -140,6 +152,7 @@
                 <!--- Sidemenu -->
                 <div id="sidebar-menu">
                     <!-- Left Menu Start -->
+
                     <ul class="metismenu list-unstyled" id="side-menu">
                         <li>
                             <a href="index.php">
@@ -153,10 +166,10 @@
                                 <span>Contacts</span>
                             </a>
                         </li>
-                        
+
                         <li>
                             <a href="opportunities.php">
-                            <i class="mdi mdi-lightbulb-on-outline"></i>
+                                <i class="mdi mdi-lightbulb-on-outline"></i>
                                 <span>Opportunites</span>
                             </a>
                         </li>
@@ -166,7 +179,7 @@
                                 <span>Calendar</span>
                             </a>
                         </li>
-                       
+
                         <li>
                             <a href="report.php">
                                 <i class="mdi mdi-trending-up"></i>
@@ -181,6 +194,7 @@
                         </li>
 
 
+
                     </ul>
 
 
@@ -188,5 +202,80 @@
                 <!-- Sidebar -->
             </div>
         </div>
+
         <!-- Left Sidebar End -->
+
+        <!-- off canvas element -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">All Accounts</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <form class="app-search d-none d-lg-block">
+                        <div class="position-relative">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <button class="btn btn-primary" type="button"><i class="bx bx-search-alt align-middle"></i></button>
+                        </div>
+
+                    </form>
+                </div>
+                <ul class="location" style="list-style:none;padding-left:0">
+                    <li>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center gap-4">
+                                    <div>
+                                        <h6>Elevate TMS</h6>
+                                        <p class="mb-0" style="color:darkgray">
+                                            3250,Mary St. Suite 300, Coconut Grove..
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <i class="mdi mdi-pin" style="font-size:18px"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center gap-4">
+                                    <div>
+                                        <h6>Elevate TMS</h6>
+                                        <p class="mb-0" style="color:darkgray">
+                                            3250,Mary St. Suite 300, Coconut Grove..
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <i class="mdi mdi-pin" style="font-size:18px"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center gap-4">
+                                    <div>
+                                        <h6>Elevate TMS</h6>
+                                        <p class="mb-0" style="color:darkgray">
+                                            3250,Mary St. Suite 300, Coconut Grove..
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <i class="mdi mdi-pin" style="font-size:18px"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- end -->
         <div class="main-content">

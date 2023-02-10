@@ -83,7 +83,7 @@
   <!-- ckeditor -->
 
 <!-- init js -->
-<!-- <script src="assets/js/pages/form-editor.init.js"></script> -->
+<script src="assets/js/pages/form-editor.init.js"></script>
 
 <!-- init date range js -->
 <script>

@@ -135,7 +135,7 @@
         <div class="card border-none">
           <div class="card-header align-items-center py-2 border-none">
             <div class="row">
-              <div class="col-md-4 col-10">
+              <div class="col-md-3 col-10">
                 <h4 class="card-title mb-0 mt-head">Opportunities</h4>
               </div>
               <div class="col-md-2">
@@ -166,8 +166,9 @@
                   </select>
                 </div>
               </div>
-              <div class="col-md-2 col-2">
-                <a href="#" class="btn btn-primary px-5 float-end" data-bs-toggle="modal" data-bs-target="#opportunity">Add</a>
+              <div class="col-md-3 col-2">
+                <a href="#" class="btn btn-primary px-4" data-bs-toggle="modal" data-bs-target="#opportunity">Add Lead</a>
+                <a href="#" class="btn btn-primary px-4 mx-2" data-bs-toggle="modal" data-bs-target="#pipe">Add Pipeline</a>
               </div>
             </div>
           </div>
@@ -186,8 +187,18 @@
                           <i class="mdi mdi-check-all"></i>
                         </span>
                       </div>
-                      <div>
-                        <h6>Lead In</h6>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Lead In</h6>
+                          </div>
+                          <div>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#stage">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
                         <p>0 Lead <span class="color-green">$0.00</span></p>
                       </div>
                     </div>
@@ -429,10 +440,21 @@
                           <i class="mdi mdi-cellphone-message"></i>
                         </span>
                       </div>
-                      <div>
-                        <h6>Texted Back</h6>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Texted Back</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
                         <p>0 Lead <span class="color-green">$0.00</span></p>
                       </div>
+                      
                     </div>
                   </div>
                   <ol class="simple_with_animation vertical two">
@@ -672,10 +694,21 @@
                           <i class="mdi mdi-cellphone"></i>
                         </span>
                       </div>
-                      <div>
-                        <h6>Calls 2-5</h6>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Calls 2-5</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
                         <p>0 Lead <span class="color-green">$0.00</span></p>
                       </div>
+                     
                     </div>
                   </div>
                   <ol class="simple_with_animation vertical three">
@@ -824,10 +857,21 @@
                           <i class="mdi mdi-cellphone"></i>
                         </span>
                       </div>
-                      <div>
-                        <h6>Calls 6-10</h6>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Calls 6-10</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
                         <p>0 Lead <span class="color-green">$0.00</span></p>
                       </div>
+                      
                     </div>
                   </div>
                   <ol class="simple_with_animation vertical four">
@@ -975,10 +1019,21 @@
                           <i class="mdi mdi-calendar"></i>
                         </span>
                       </div>
-                      <div>
-                        <h6>Consult</h6>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Consult</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
                         <p>0 Lead <span class="color-green">$0.00</span></p>
                       </div>
+                      
                     </div>
                   </div>
                   <ol class="simple_with_animation vertical five">
@@ -1119,6 +1174,33 @@
 
 
                   </ol>
+                </div>
+                <div class="col-md-4">
+                  <div class="upper-head">
+                    <div class="inner">
+                      <div>
+                        <span class="mt-5 bg-soft-primary inner-icon">
+                          <i class="mdi mdi-plus"></i>
+                        </span>
+                      </div>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Add New</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-plus"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
+                        <!-- <p>0 Lead <span class="color-green">$0.00</span></p> -->
+                      </div>
+                      
+                    </div>
+                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -1817,6 +1899,71 @@
 </div>
 
 <!-- end -->
+
+<!-- edit stage modal -->
+<div class="modal fade" id="stage" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel"9>Edit Stage Name</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <form class="needs-validation" name="event-form" id="form-event" novalidate="">
+                <div class="row form-group mt-3">
+                      <div class="col-md-12">
+                      <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="stage name">
+                          <label for="floatingInput">Stage Name</label>
+                        </div>
+                      </div>
+                     
+                    </div>
+                   
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+<!-- pipeline modal -->
+<div class="modal fade" id="pipe" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel"9>Add Pipeline Name</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <form class="needs-validation" name="event-form" id="form-event" novalidate="">
+                <div class="row form-group mt-3">
+                      <div class="col-md-12">
+                      <div class="form-floating mb-3 ">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="pipeline name">
+                          <label for="floatingInput">Pipeline Name</label>
+                        </div>
+                      </div>
+                     
+                    </div>
+                   
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+
 <script>
   let email_temp_input = document.getElementById('formCheck1');
   let sms_temp_input = document.getElementById('formCheck2');
