@@ -71,6 +71,11 @@
     width: 90px;
     font-size: 2rem;
     cursor: pointer;
+    border: 1px solid #e7dddd;
+    height: 80px;
+    margin-top: 4px;
+    margin-left: 3px;
+    border-radius: 0.3rem;
 }
 
 .sub {
@@ -119,6 +124,7 @@
     text-align: center;
     font-family: 'Exo';
     justify-content: space-evenly;
+    align-items: center;
 }
 
 /* end */
@@ -135,7 +141,7 @@
 #call {
     display: inline-block;
     background-color: #66bb6a;
-    padding: 4px 23px;
+    padding: 20px 23px;
     margin: 10px;
     color: white;
     border-radius: 4px;
@@ -510,7 +516,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="chat.php">
+                            <a href="conversation.php">
                                 <i class="mdi mdi-comment-text-multiple-outline"></i>
                                 <span>Conversations</span>
                             </a>
