@@ -24,7 +24,7 @@
             </div>
             <div class="text-nowrap d-flex justify-content-between mb-2 text-center">
               <div>
-              <span class="ms-1 red-text">Closed</span>
+              <span class="ms-1 green-text">Won</span>
               <p class="text-dark">09</p>
               </div>
               <div>
@@ -61,7 +61,7 @@
             </div>
             <div class="text-nowrap d-flex justify-content-between mb-2 text-center">
               <div>
-              <span class="ms-1 red-text">Closed</span>
+              <span class="ms-1 green-text">Won</span>
               <p class="text-dark">$89</p>
               </div>
               <div>

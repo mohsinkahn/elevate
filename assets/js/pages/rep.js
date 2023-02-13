@@ -83,3 +83,5 @@ var pieColors = getChartColorsArray("#pie_chart2"),
   document.querySelector("#pie_chart2"),
   options
 )).render();
+
+

@@ -135,7 +135,7 @@
         <div class="card border-none">
           <div class="card-header align-items-center py-2 border-none">
             <div class="row">
-              <div class="col-md-3 col-10">
+              <div class="col-md-2 col-10">
                 <h4 class="card-title mb-0 mt-head">Opportunities</h4>
               </div>
               <div class="col-md-2">
@@ -166,9 +166,9 @@
                   </select>
                 </div>
               </div>
-              <div class="col-md-3 col-2">
-                <a href="#" class="btn btn-primary px-4" data-bs-toggle="modal" data-bs-target="#opportunity">Add Lead</a>
-                <a href="#" class="btn btn-primary px-4 mx-2" data-bs-toggle="modal" data-bs-target="#pipe">Add Pipeline</a>
+              <div class="col-md-4 col-2">
+                <a href="#" class="btn btn-primary px-4 float-end" data-bs-toggle="modal" data-bs-target="#opportunity">Add Opportunities</a>
+                <a href="#" class="btn btn-primary px-4 mx-2 float-end" data-bs-toggle="modal" data-bs-target="#pipe">Add Pipeline</a>
               </div>
             </div>
           </div>
@@ -432,260 +432,7 @@
                     </li>
                   </ol>
                 </div>
-                <div class="col-md-4">
-                  <div class="upper-head">
-                    <div class="inner">
-                      <div>
-                        <span class="mt-5 bg-two inner-icon">
-                          <i class="mdi mdi-cellphone-message"></i>
-                        </span>
-                      </div>
-                      <div style="flex:1">
-                        <div class="d-flex justify-content-between w-100">
-                          <div>
-                          <h6>Texted Back</h6>
-                          </div>
-                          <div>
-                            <a href="#">
-                              <i class="mdi mdi-pencil"></i>
-                              </a>
-                          </div>
-                        </div>
-                        
-                        <p>0 Lead <span class="color-green">$0.00</span></p>
-                      </div>
-                      
-                    </div>
-                  </div>
-                  <ol class="simple_with_animation vertical two">
-                    <li class="highlight">
-                    <div class="d-flex" style="width:100%;">
-                        <div>
-                          <h4>Maria Jardines</h4>
-                        </div>
-                        <div>
-                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
-                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
-                          <span class="badge rounded-pill bg-info">Open</span>
-                        </div>
-                        <div style="flex:1;text-align:right;">
-                          <div class="dropdown">
-                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                              <li><a class="dropdown-item" href="#"> Open</a></li>
-                              <li><a class="dropdown-item" href="#"> Lost</a></li>
-                              <li><a class="dropdown-item" href="#"> Won</a></li>
-                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <p>Facebook</p>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
-                      <div class="row mt-3">
-                        <div class="col-md-6">
-                          <a href="view_contact.php" class="btn btn-primary">
-                            <i class="mdi mdi-comment"></i>
-                          </a>
-                          <a href="#" class="btn btn-primary">
-                            <i class="mdi mdi-phone"></i>
-                          </a>
-                        </div>
-                        <div class="col-md-6 text-right">
-                          <a href="#" class="btn btn-primary">
-                            <i class="fa fa-plus"></i> Task
-                          </a>
-                        </div>
-                      </div>
-
-                    </li>
-                    <li class="highlight">
-                    <div class="d-flex" style="width:100%;">
-                        <div>
-                          <h4>Maria Jardines</h4>
-                        </div>
-                        <div>
-                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
-                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
-                          <span class="badge rounded-pill bg-info">Open</span>
-                        </div>
-                        <div style="flex:1;text-align:right;">
-                          <div class="dropdown">
-                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                              <li><a class="dropdown-item" href="#"> Open</a></li>
-                              <li><a class="dropdown-item" href="#"> Lost</a></li>
-                              <li><a class="dropdown-item" href="#"> Won</a></li>
-                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <p>Facebook</p>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
-                      <div class="row mt-3">
-                        <div class="col-md-6">
-                          <a href="view_contact.php" class="btn btn-primary">
-                            <i class="mdi mdi-comment"></i>
-                          </a>
-                          <a href="#" class="btn btn-primary">
-                            <i class="mdi mdi-phone"></i>
-                          </a>
-                        </div>
-                        <div class="col-md-6 text-right">
-                          <a href="#" class="btn btn-primary">
-                            <i class="fa fa-plus"></i> Task
-                          </a>
-                        </div>
-                      </div>
-
-                    </li>
-                    <li class="highlight">
-                    <div class="d-flex" style="width:100%;">
-                        <div>
-                          <h4>Maria Jardines</h4>
-                        </div>
-                        <div>
-                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
-                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
-                          <span class="badge rounded-pill bg-info">Open</span>
-                        </div>
-                        <div style="flex:1;text-align:right;">
-                          <div class="dropdown">
-                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                              <li><a class="dropdown-item" href="#"> Open</a></li>
-                              <li><a class="dropdown-item" href="#"> Lost</a></li>
-                              <li><a class="dropdown-item" href="#"> Won</a></li>
-                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <p>Facebook</p>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
-                      <div class="row mt-3">
-                        <div class="col-md-6">
-                          <a href="view_contact.php" class="btn btn-primary">
-                            <i class="mdi mdi-comment"></i>
-                          </a>
-                          <a href="#" class="btn btn-primary">
-                            <i class="mdi mdi-phone"></i>
-                          </a>
-                        </div>
-                        <div class="col-md-6 text-right">
-                          <a href="#" class="btn btn-primary">
-                            <i class="fa fa-plus"></i> Task
-                          </a>
-                        </div>
-                      </div>
-
-                    </li>
-
-                    <li class="highlight">
-                    <div class="d-flex" style="width:100%;">
-                        <div>
-                          <h4>Maria Jardines</h4>
-                        </div>
-                        <div>
-                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
-                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
-                          <span class="badge rounded-pill bg-info">Open</span>
-                        </div>
-                        <div style="flex:1;text-align:right;">
-                          <div class="dropdown">
-                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                              <li><a class="dropdown-item" href="#"> Open</a></li>
-                              <li><a class="dropdown-item" href="#"> Lost</a></li>
-                              <li><a class="dropdown-item" href="#"> Won</a></li>
-                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <p>Facebook</p>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
-                      <div class="row mt-3">
-                        <div class="col-md-6">
-                          <a href="view_contact.php" class="btn btn-primary">
-                            <i class="mdi mdi-comment"></i>
-                          </a>
-                          <a href="#" class="btn btn-primary">
-                            <i class="mdi mdi-phone"></i>
-                          </a>
-                        </div>
-                        <div class="col-md-6 text-right">
-                          <a href="#" class="btn btn-primary">
-                            <i class="fa fa-plus"></i> Task
-                          </a>
-                        </div>
-                      </div>
-
-                    </li>
-                    <li class="highlight">
-                    <div class="d-flex" style="width:100%;">
-                        <div>
-                          <h4>Maria Jardines</h4>
-                        </div>
-                        <div>
-                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
-                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
-                          <span class="badge rounded-pill bg-info">Open</span>
-                        </div>
-                        <div style="flex:1;text-align:right;">
-                          <div class="dropdown">
-                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                              <li><a class="dropdown-item" href="#"> Open</a></li>
-                              <li><a class="dropdown-item" href="#"> Lost</a></li>
-                              <li><a class="dropdown-item" href="#"> Won</a></li>
-                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <p>Facebook</p>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
-                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
-                      <div class="row mt-3">
-                        <div class="col-md-6">
-                          <a href="view_contact.php" class="btn btn-primary">
-                            <i class="mdi mdi-comment"></i>
-                          </a>
-                          <a href="#" class="btn btn-primary">
-                            <i class="mdi mdi-phone"></i>
-                          </a>
-                        </div>
-                        <div class="col-md-6 text-right">
-                          <a href="#" class="btn btn-primary">
-                            <i class="fa fa-plus"></i> Task
-                          </a>
-                        </div>
-                      </div>
-
-                    </li>
-                  </ol>
-                </div>
+               
                 <div class="col-md-4">
                   <div class="upper-head">
                     <div class="inner">
@@ -1179,6 +926,1004 @@
                   <div class="upper-head">
                     <div class="inner">
                       <div>
+                        <span class="mt-5 bg-two inner-icon">
+                          <i class="mdi mdi-close"></i>
+                        </span>
+                      </div>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Cancelled Consult</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
+                        <p>0 Lead <span class="color-green">$0.00</span></p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <ol class="simple_with_animation vertical two">
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                  </ol>
+                </div>
+                <div class="col-md-4">
+                  <div class="upper-head">
+                    <div class="inner">
+                      <div>
+                        <span class="mt-5 bg-four inner-icon">
+                        <i class="mdi mdi-calendar"></i>
+                        </span>
+                      </div>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Eval Mapping Scheduled</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
+                        <p>0 Lead <span class="color-green">$0.00</span></p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <ol class="simple_with_animation vertical four">
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+                <div class="col-md-4">
+                  <div class="upper-head">
+                    <div class="inner">
+                      <div>
+                        <span class="mt-5 bg-five inner-icon">
+                          <i class="mdi mdi-close"></i>
+                        </span>
+                      </div>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>No Show-Cancelled/Eval Mapping</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
+                        <p>0 Lead <span class="color-green">$0.00</span></p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <ol class="simple_with_animation vertical five">
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+
+
+                  </ol>
+                </div>
+                <div class="col-md-4">
+                  <div class="upper-head">
+                    <div class="inner">
+                      <div>
+                        <span class="mt-5 bg-two inner-icon">
+                          <i class="mdi mdi-star"></i>
+                        </span>
+                      </div>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Review Request</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
+                        <p>0 Lead <span class="color-green">$0.00</span></p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <ol class="simple_with_animation vertical two">
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                  </ol>
+                </div>
+                <div class="col-md-4">
+                  <div class="upper-head">
+                    <div class="inner">
+                      <div>
+                        <span class="mt-5 bg-three inner-icon">
+                          <i class="mdi mdi-cog"></i>
+                        </span>
+                      </div>
+                      <div style="flex:1">
+                        <div class="d-flex justify-content-between w-100">
+                          <div>
+                          <h6>Maintenance</h6>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <i class="mdi mdi-pencil"></i>
+                              </a>
+                          </div>
+                        </div>
+                        
+                        <p>0 Lead <span class="color-green">$0.00</span></p>
+                      </div>
+                     
+                    </div>
+                  </div>
+                  <ol class="simple_with_animation vertical three">
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li class="highlight">
+                    <div class="d-flex" style="width:100%;">
+                        <div>
+                          <h4>Maria Jardines</h4>
+                        </div>
+                        <div>
+                          <!-- <span class="badge rounded-pill bg-warning">Won</span> -->
+                          <!-- <span class="badge rounded-pill bg-danger">Lost</span> -->
+                          <span class="badge rounded-pill bg-info">Open</span>
+                        </div>
+                        <div style="flex:1;text-align:right;">
+                          <div class="dropdown">
+                            <button class="btn btn-link font-size-16 shadow-none py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="#"> Open</a></li>
+                              <li><a class="dropdown-item" href="#"> Lost</a></li>
+                              <li><a class="dropdown-item" href="#"> Won</a></li>
+                              <li><a class="dropdown-item" href="#"> Abandoned</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Facebook</p>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Facebook</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">Tms</a>
+                      <a href="#" class="badge badge-soft-primary font-size-11">External</a>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <a href="view_contact.php" class="btn btn-primary">
+                            <i class="mdi mdi-comment"></i>
+                          </a>
+                          <a href="#" class="btn btn-primary">
+                            <i class="mdi mdi-phone"></i>
+                          </a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa fa-plus"></i> Task
+                          </a>
+                        </div>
+                      </div>
+
+                    </li>
+
+                  </ol>
+                </div>
+                <!-- last -->
+                <div class="col-md-4">
+                  <div class="upper-head">
+                    <div class="inner">
+                      <div>
                         <span class="mt-5 bg-soft-primary inner-icon">
                           <i class="mdi mdi-plus"></i>
                         </span>
@@ -1202,6 +1947,7 @@
                   </div>
                  
                 </div>
+                <!-- end -->
               </div>
             </div>
 

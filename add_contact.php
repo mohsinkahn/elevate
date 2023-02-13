@@ -1,12 +1,13 @@
 <?php require_once("header.php") ?>
 
 <style>
-    .form-check .form-check-input {
-        float: inherit !important;
-    }
-    .choices__inner{
-        padding: 11px 9px!important;
-    }
+.form-check .form-check-input {
+    float: inherit !important;
+}
+
+.choices__inner {
+    padding: 11px 9px !important;
+}
 </style>
 
 <link href="assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css">
@@ -36,13 +37,15 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 ">
-                                            <input type="email" class="form-control" id="floatingInput" placeholder="First Name">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="First Name">
                                             <label for="floatingInput">First Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3 ">
-                                            <input type="email" class="form-control" id="floatingInput" placeholder="Last Name">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="Last Name">
                                             <label for="floatingInput">Last Name</label>
                                         </div>
                                     </div>
@@ -50,13 +53,15 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="floatingInput" placeholder="Dob" onclick="this.type='date'">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="Dob" onclick="this.type='date'">
                                             <label for="floatingInput">Date Of Birth</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="floatingInput" placeholder="Gender">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="Gender">
                                             <label for="floatingInput">Gender</label>
                                         </div>
                                     </div>
@@ -64,13 +69,15 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3">
-                                            <input type="number" class="form-control" id="floatingInput" placeholder="Phone">
+                                            <input type="number" class="form-control" id="floatingInput"
+                                                placeholder="Phone">
                                             <label for="floatingInput">Phone Number</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="Email">
                                             <label for="floatingInput">Email</label>
                                         </div>
                                     </div>
@@ -78,13 +85,15 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="floatingInput" placeholder="Contact source">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="Contact source">
                                             <label for="floatingInput">Contact Source</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="floatingInput" placeholder="Contact type">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="Contact type">
                                             <label for="floatingInput">Contact Type</label>
                                         </div>
                                     </div>
@@ -110,6 +119,89 @@
 
                             </div>
                             <div class="row">
+                                <div class="col-md-10 col-10">
+                                    <label for="floatingInput" style="font-weight:bold;">Add Opportunity</label>
+                                </div>
+                                <div class="col-md-2 col-2">
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-xl-12">
+
+                                    <div class="row form-group">
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="opportunity name">
+                                                <label for="floatingInput">Opportunity Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <select class="form-select" style="height: 58px;">
+                                                    <option value="">Pipeline</option>
+                                                    <option>Master Pipeline</option>
+                                                    <option>Coordinator Pipeline</option>
+                                                    <option>In House Pipeline</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group mt-2">
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <select class=" form-select" style="height: 58px;">
+                                                    <option value="">Stage</option>
+                                                    <option>Lead In</option>
+                                                    <option>A</option>
+                                                    <option>B</option>
+                                                    <option>C</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <select class=" form-select" style="height: 58px;">
+                                                    <option value="">Status</option>
+                                                    <option>Open</option>
+                                                    <option>Won</option>
+                                                    <option>Lost</option>
+                                                    <option>Abundant</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-md-4">
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="lead value">
+                                                <label for="floatingInput">Lead Value</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="mb-3">
+                                                <select class=" form-select" style="height: 58px;">
+                                                    <option value="">Owner</option>
+                                                    <option>Unassigned</option>
+                                                    <option>John Dea</option>
+                                                    <option>Albert Henry</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="opportunity source">
+                                                <label for="floatingInput">Opportunity Source</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
                                 <div class="col-md-12">
                                     <label for="floatingInput" style="font-weight:bold;">Additional Info</label>
                                     <div class="row">
@@ -118,13 +210,15 @@
                                                 Are You Currently An Elevate Psychiatry Patient?
                                             </p>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     Yes
                                                 </label>
                                             </div>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     No
                                                 </label>
@@ -132,16 +226,19 @@
                                         </div>
                                         <div class="col-md-6">
                                             <p>
-                                                Which Location Are You interested To Schedule Your Initial TMS Consultation?
+                                                Which Location Are You interested To Schedule Your Initial TMS
+                                                Consultation?
                                             </p>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     Doral
                                                 </label>
                                             </div>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     Coconut Grove
                                                 </label>
@@ -156,13 +253,17 @@
                                                 Current Insurance Carrier?
                                             </p>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
-                                                    Medicaid - patient must undersatand that we do not accept their insurance and that the cash prize is $4500, which they can pay upfront or finance
+                                                    Medicaid - patient must undersatand that we do not accept their
+                                                    insurance and that the cash prize is $4500, which they can pay
+                                                    upfront or finance
                                                 </label>
                                             </div>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     Self pay
                                                 </label>
@@ -173,7 +274,8 @@
                                                 Write name of insurance
                                             </p>
                                             <div class="form-floating mb-3">
-                                                <input type="email" class="form-control" id="floatingInput" placeholder="insurance">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="insurance">
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
 
@@ -186,13 +288,15 @@
                                                 Have You Ever Been Diagnosed And Treated For Depression?
                                             </p>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     Yes
                                                 </label>
                                             </div>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     No
                                                 </label>
@@ -203,7 +307,8 @@
                                                 Who Referred You To TMS Treatment?
                                             </p>
                                             <div class="form-floating mb-3">
-                                                <input type="email" class="form-control" id="floatingInput" placeholder="insurance">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="insurance">
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
@@ -215,7 +320,8 @@
                                                 How Many Antidpressant Medications Have You Tried Dropdown?
                                             </p>
                                             <div class="form-floating mb-3">
-                                                <select name="" id="" class="form-select" style="height:58px;padding-top:8px">
+                                                <select name="" id="" class="form-select"
+                                                    style="height:58px;padding-top:8px">
                                                     <option value="">Select</option>
                                                     <option value="">None</option>
                                                     <option value="">1 - 3 Medications</option>
@@ -228,19 +334,22 @@
                                                 Are You In Or Have YOu Done Therapy?
                                             </p>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     Yes,currently
                                                 </label>
                                             </div>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     Yes,in the past
                                                 </label>
                                             </div>
                                             <div class="form-check mb-3">
-                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                                <input class="form-check-input" type="radio" name="formRadios"
+                                                    id="formRadios1" checked="">
                                                 <label class="form-check-label" for="formRadios1">
                                                     Never
                                                 </label>
@@ -254,7 +363,8 @@
                                                 Emergency Contact Name
                                             </p>
                                             <div class="form-floating mb-3">
-                                                <input type="email" class="form-control" id="floatingInput" placeholder="insurance">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="insurance">
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
@@ -263,12 +373,13 @@
                                                 Emergency Contact Phone
                                             </p>
                                             <div class="form-floating mb-3">
-                                                <input type="number" class="form-control" id="floatingInput" placeholder="insurance">
+                                                <input type="number" class="form-control" id="floatingInput"
+                                                    placeholder="insurance">
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
                                     </div>
-                                   
+
                                     <div class="row">
                                         <div class="col-md-6">
                                             <p>
@@ -276,16 +387,19 @@
                                             </p>
                                             <div class="form-floating mb-3">
                                                 <!-- <input type="email" class="form-control" id="" placeholder="insurance"> -->
-                                                <textarea name="" id="floatingInput" class="form-control" cols="30" rows="10"></textarea>
+                                                <textarea name="" id="floatingInput" class="form-control" cols="30"
+                                                    rows="10"></textarea>
                                                 <!-- <label for="floatingInput">Enter</label> -->
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                        <p for="floatingInput" style="font-weight:bold;">Actions</p>
+                                            <p for="floatingInput" style="font-weight:bold;">Actions</p>
                                             <div class="mb-3">
-                                                <label for="choices-text-remove-button" class="form-label font-size-13 text-muted" style="width:100%">
+                                                <label for="choices-text-remove-button"
+                                                    class="form-label font-size-13 text-muted" style="width:100%">
 
-                                                    <input class="form-control" id="choices-text-remove-button" type="text" value="facebook,TMS" placeholder="Enter something">
+                                                    <input class="form-control" id="choices-text-remove-button"
+                                                        type="text" value="facebook,TMS" placeholder="Enter something">
 
 
                                             </div>
@@ -294,12 +408,13 @@
 
                                 </div>
                             </div>
-                           
+
                             <div class="row">
                                 <div class="col-md-12 bord-bot">
                                     <div class="row align-items-center">
                                         <div class="col-md-6">
-                                            <label for="floatingInput" style="font-weight:bold;">DND All Channels</label>
+                                            <label for="floatingInput" style="font-weight:bold;">DND All
+                                                Channels</label>
                                         </div>
                                         <div class="col-md-6 text-right">
                                             <input type="checkbox">
@@ -358,7 +473,8 @@
 
                             <div class="col-md-12">
                                 <a href="all_patient.php" class="btn btn-primary px-5 float-end">Save</a>
-                                <a href="all_patient.php" class="btn btn-outline-primary px-5 float-end" style="margin-right:12px">Cancel</a>
+                                <a href="all_patient.php" class="btn btn-outline-primary px-5 float-end"
+                                    style="margin-right:12px">Cancel</a>
                             </div>
                         </div>
 
@@ -377,14 +493,14 @@
     <script src="assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
 
     <script>
-        $(document).ready(function() {
-            new Choices(document.getElementById("choices-text-remove-button"), {
-                delimiter: ",",
-                editItems: !0,
-                maxItemCount: 5,
-                removeItemButton: !0,
-            })
-        });
+    $(document).ready(function() {
+        new Choices(document.getElementById("choices-text-remove-button"), {
+            delimiter: ",",
+            editItems: !0,
+            maxItemCount: 5,
+            removeItemButton: !0,
+        })
+    });
     </script>
 
     <?php require_once("footer.php") ?>
