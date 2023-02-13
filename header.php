@@ -262,7 +262,7 @@
                                 <img src="assets/images/small.png" alt="" style="height:24px">
                             </span>
                             <span class="logo-lg">
-                                <img src="assets/images/logo.png" alt="" style="height:60px">
+                                <img src="assets/images/logo.png" alt="" style="height:60px;margin-top:15px;">
                                 <!-- <span class="logo-txt">Strategeye</span> -->
                             </span>
                         </a>
