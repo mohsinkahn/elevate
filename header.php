@@ -68,7 +68,7 @@
 .dig {
     float: left;
     padding: 10px 30px;
-    width: 90px;
+    width: auto;
     font-size: 2rem;
     cursor: pointer;
     border: 1px solid #e7dddd;
@@ -96,11 +96,14 @@
 }
 
 .row2 {
-    margin: 0 auto;
-    width: 280px;
+    /* margin: 0 auto;
+    width: 280px; */
     clear: both;
     text-align: center;
     font-family: 'Exo';
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
 }
 
 .dig {
@@ -265,7 +268,7 @@
                     <div class="navbar-brand-box">
                         <a href="index.php" class="logo logo-dark">
                             <span class="logo-sm">
-                                <img src="assets/images/small.png" alt="" style="height:24px">
+                                <img src="assets/images/small.png" alt="" style="height:24px;margin-top:34px">
                             </span>
                             <span class="logo-lg">
                                 <img src="assets/images/logo.png" alt="" style="height:60px;margin-top:15px;">
