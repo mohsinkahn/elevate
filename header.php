@@ -151,6 +151,13 @@
     float:left;
     cursor: pointer;
 }
+.table th {
+    font-weight: 700;
+    font-size: 13px;
+}
+.table td{
+    font-size: 13px;
+}
 
 .chat-message-list {
     height: calc(100vh - 216px) !important;
