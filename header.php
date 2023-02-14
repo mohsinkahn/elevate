@@ -148,7 +148,7 @@
     margin: 10px;
     color: white;
     border-radius: 4px;
-    float: left;
+    float:left;
     cursor: pointer;
 }
 
